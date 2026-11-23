@@ -1,0 +1,7 @@
+.venv/
+sidechain/sidechain
+sidechain/data/
+sidechain/results/*.f32
+sidechain/results/*.u8
+__pycache__/
+*.pyc

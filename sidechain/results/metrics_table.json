@@ -1,0 +1,71 @@
+{
+ "rows": [
+  {
+   "tier": "low",
+   "threshold_dbfs": -35.0,
+   "noise_frames": 4402,
+   "event_frames": 1598,
+   "fp_frames_raw": 628,
+   "miss_frames_raw": 8,
+   "fpr_measured": 0.14266242616992275,
+   "fpr_theory": 0.13279096591238082,
+   "fpr_rel_dev": 0.07433834214336082,
+   "fnr_measured": 0.0050062578222778474,
+   "fnr_theory": 0.0016012846640218088,
+   "fnr_rel_dev": 2.1264009046986443,
+   "fp_frames_hold": 814,
+   "miss_frames_hold": 8,
+   "fpr_hold": 0.18491594729668331,
+   "fnr_hold": 0.0050062578222778474,
+   "trigger_events": 62,
+   "deviation_reasons": [
+    "FNR: event lower-tail mismatch, empirical=0.501% vs fitted=0.160% (fit under-puts mass here). Structure: 8/8 missed frames are fade in/out edge frames whose raised-cosine ramp has not reached the threshold, 0 interior; these weak edge frames form a discrete fringe the continuous Gaussian mixture cannot place correctly in the far lower tail"
+   ],
+   "hold_note": "hold adds 186 noise frames (4.225% of noise frames) beyond raw exceedance; theory models per-frame levels only"
+  },
+  {
+   "tier": "mid",
+   "threshold_dbfs": -30.0,
+   "noise_frames": 4402,
+   "event_frames": 1598,
+   "fp_frames_raw": 365,
+   "miss_frames_raw": 15,
+   "fpr_measured": 0.08291685597455702,
+   "fpr_theory": 0.09362411140475668,
+   "fpr_rel_dev": 0.11436429429925325,
+   "fnr_measured": 0.009386733416770964,
+   "fnr_theory": 0.007463508978970159,
+   "fnr_rel_dev": 0.25768367710414125,
+   "fp_frames_hold": 545,
+   "miss_frames_hold": 15,
+   "fpr_hold": 0.12380736029077692,
+   "fnr_hold": 0.009386733416770964,
+   "trigger_events": 60,
+   "deviation_reasons": [],
+   "hold_note": "hold adds 180 noise frames (4.089% of noise frames) beyond raw exceedance; theory models per-frame levels only"
+  },
+  {
+   "tier": "high",
+   "threshold_dbfs": -24.0,
+   "noise_frames": 4402,
+   "event_frames": 1598,
+   "fp_frames_raw": 154,
+   "miss_frames_raw": 44,
+   "fpr_measured": 0.03498409813721036,
+   "fpr_theory": 0.03332983847810045,
+   "fpr_rel_dev": 0.049632993577117125,
+   "fnr_measured": 0.02753441802252816,
+   "fnr_theory": 0.06485758723254902,
+   "fnr_rel_dev": 0.5754634238273064,
+   "fp_frames_hold": 334,
+   "miss_frames_hold": 44,
+   "fpr_hold": 0.07587460245343026,
+   "fnr_hold": 0.02753441802252816,
+   "trigger_events": 60,
+   "deviation_reasons": [
+    "FNR: event lower-tail mismatch, empirical=2.753% vs fitted=6.486% (fit over-puts mass here). Structure: 39/44 missed frames are fade in/out edge frames whose raised-cosine ramp has not reached the threshold, 5 interior; these weak edge frames form a discrete fringe the continuous Gaussian mixture cannot place correctly in the far lower tail"
+   ],
+   "hold_note": "hold adds 180 noise frames (4.089% of noise frames) beyond raw exceedance; theory models per-frame levels only"
+  }
+ ]
+}

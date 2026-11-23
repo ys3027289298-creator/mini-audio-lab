@@ -1,0 +1,643 @@
+{
+ "parameters": {
+  "attack_ms": 2.0,
+  "release_ms": 40.0,
+  "hold_ms": 30.0,
+  "frame_ms": 10.0,
+  "thresholds_dbfs": [
+   -35.0,
+   -30.0,
+   -24.0
+  ],
+  "seed": 42
+ },
+ "noise_model": {
+  "kind": "gmm2",
+  "w": [
+   0.8516215451055213,
+   0.1483784548944802
+  ],
+  "mu": [
+   -35.60175165417627,
+   -28.16084261617071
+  ],
+  "sigma": [
+   0.1755786338381336,
+   5.498969544535279
+  ]
+ },
+ "event_model": {
+  "kind": "gmm2",
+  "w": [
+   0.054300237160219283,
+   0.9456997628397817
+  ],
+  "mu": [
+   -22.89000615802302,
+   -18.363114664835045
+  ],
+  "sigma": [
+   6.412797191679904,
+   3.300275222336213
+  ]
+ },
+ "noise_bic": {
+  "bic_normal": 23263.898888720047,
+  "bic_gmm2": 5145.618567503218,
+  "ll_normal": -11623.559630097938,
+  "ll_gmm2": -2551.834748096393
+ },
+ "event_bic": {
+  "bic_normal": 8718.899196225593,
+  "bic_gmm2": 8638.792703420448,
+  "ll_normal": -4352.07308998647,
+  "ll_gmm2": -4300.955081394408
+ },
+ "release_tail_diagnostic": {
+  "post_event_frames": 240,
+  "post_event_mean_db": -22.64048194885254,
+  "background_frames": 4162,
+  "background_mean_db": -35.18142318725586,
+  "background_sigma_db": 1.6484053134918213
+ },
+ "eer": {
+  "threshold_dbfs": -25.0,
+  "rate": 0.04194824148685006
+ },
+ "frame_rows": [
+  {
+   "tier": "low",
+   "threshold_dbfs": -35.0,
+   "noise_frames": 4402,
+   "event_frames": 1598,
+   "fp_frames_raw": 628,
+   "miss_frames_raw": 8,
+   "fpr_measured": 0.14266242616992275,
+   "fpr_theory": 0.13279096591238082,
+   "fpr_rel_dev": 0.07433834214336082,
+   "fnr_measured": 0.0050062578222778474,
+   "fnr_theory": 0.0016012846640218088,
+   "fnr_rel_dev": 2.1264009046986443,
+   "fp_frames_hold": 814,
+   "miss_frames_hold": 8,
+   "fpr_hold": 0.18491594729668331,
+   "fnr_hold": 0.0050062578222778474,
+   "trigger_events": 62,
+   "deviation_reasons": [
+    "FNR: event lower-tail mismatch, empirical=0.501% vs fitted=0.160% (fit under-puts mass here). Structure: 8/8 missed frames are fade in/out edge frames whose raised-cosine ramp has not reached the threshold, 0 interior; these weak edge frames form a discrete fringe the continuous Gaussian mixture cannot place correctly in the far lower tail"
+   ],
+   "hold_note": "hold adds 186 noise frames (4.225% of noise frames) beyond raw exceedance; theory models per-frame levels only"
+  },
+  {
+   "tier": "mid",
+   "threshold_dbfs": -30.0,
+   "noise_frames": 4402,
+   "event_frames": 1598,
+   "fp_frames_raw": 365,
+   "miss_frames_raw": 15,
+   "fpr_measured": 0.08291685597455702,
+   "fpr_theory": 0.09362411140475668,
+   "fpr_rel_dev": 0.11436429429925325,
+   "fnr_measured": 0.009386733416770964,
+   "fnr_theory": 0.007463508978970159,
+   "fnr_rel_dev": 0.25768367710414125,
+   "fp_frames_hold": 545,
+   "miss_frames_hold": 15,
+   "fpr_hold": 0.12380736029077692,
+   "fnr_hold": 0.009386733416770964,
+   "trigger_events": 60,
+   "deviation_reasons": [],
+   "hold_note": "hold adds 180 noise frames (4.089% of noise frames) beyond raw exceedance; theory models per-frame levels only"
+  },
+  {
+   "tier": "high",
+   "threshold_dbfs": -24.0,
+   "noise_frames": 4402,
+   "event_frames": 1598,
+   "fp_frames_raw": 154,
+   "miss_frames_raw": 44,
+   "fpr_measured": 0.03498409813721036,
+   "fpr_theory": 0.03332983847810045,
+   "fpr_rel_dev": 0.049632993577117125,
+   "fnr_measured": 0.02753441802252816,
+   "fnr_theory": 0.06485758723254902,
+   "fnr_rel_dev": 0.5754634238273064,
+   "fp_frames_hold": 334,
+   "miss_frames_hold": 44,
+   "fpr_hold": 0.07587460245343026,
+   "fnr_hold": 0.02753441802252816,
+   "trigger_events": 60,
+   "deviation_reasons": [
+    "FNR: event lower-tail mismatch, empirical=2.753% vs fitted=6.486% (fit over-puts mass here). Structure: 39/44 missed frames are fade in/out edge frames whose raised-cosine ramp has not reached the threshold, 5 interior; these weak edge frames form a discrete fringe the continuous Gaussian mixture cannot place correctly in the far lower tail"
+   ],
+   "hold_note": "hold adds 180 noise frames (4.089% of noise frames) beyond raw exceedance; theory models per-frame levels only"
+  }
+ ],
+ "sweep": [
+  {
+   "threshold_dbfs": -38,
+   "fpr_measured": 0.9997728305315765,
+   "fpr_theory": 0.9945418339631459,
+   "fnr_measured": 0.0,
+   "fnr_theory": 0.0005012393042120945
+  },
+  {
+   "threshold_dbfs": -36,
+   "fpr_measured": 0.9929577464788732,
+   "fpr_theory": 0.9786468749001905,
+   "fnr_measured": 0.0,
+   "fnr_theory": 0.0011110016004807599
+  },
+  {
+   "threshold_dbfs": -35,
+   "fpr_measured": 0.14266242616992275,
+   "fpr_theory": 0.13279096591238082,
+   "fnr_measured": 0.0050062578222778474,
+   "fnr_theory": 0.0016012846640218088
+  },
+  {
+   "threshold_dbfs": -34,
+   "fpr_measured": 0.12289868241708314,
+   "fpr_theory": 0.12698988874245776,
+   "fnr_measured": 0.005632040050062578,
+   "fnr_theory": 0.002259624976393828
+  },
+  {
+   "threshold_dbfs": -32,
+   "fpr_measured": 0.10086324398000909,
+   "fpr_theory": 0.11239092978834053,
+   "fnr_measured": 0.00688360450563204,
+   "fnr_theory": 0.004237059672004184
+  },
+  {
+   "threshold_dbfs": -30,
+   "fpr_measured": 0.08291685597455702,
+   "fpr_theory": 0.09362411140475668,
+   "fnr_measured": 0.009386733416770964,
+   "fnr_theory": 0.007463508978970159
+  },
+  {
+   "threshold_dbfs": -28,
+   "fpr_measured": 0.06701499318491595,
+   "fpr_theory": 0.07245806109716868,
+   "fnr_measured": 0.012515644555694618,
+   "fnr_theory": 0.013208510060297926
+  },
+  {
+   "threshold_dbfs": -26,
+   "fpr_measured": 0.05088596092685143,
+   "fpr_theory": 0.05151354117011231,
+   "fnr_measured": 0.015018773466833541,
+   "fnr_theory": 0.026814475316610305
+  },
+  {
+   "threshold_dbfs": -25,
+   "fpr_measured": 0.0429350295320309,
+   "fpr_theory": 0.04194824148685006,
+   "fnr_measured": 0.02190237797246558,
+   "fnr_theory": 0.04110783226668609
+  },
+  {
+   "threshold_dbfs": -24,
+   "fpr_measured": 0.03498409813721036,
+   "fpr_theory": 0.03332983847810045,
+   "fnr_measured": 0.02753441802252816,
+   "fnr_theory": 0.06485758723254902
+  },
+  {
+   "threshold_dbfs": -22,
+   "fpr_measured": 0.023171285779191277,
+   "fpr_theory": 0.019479053733469365,
+   "fnr_measured": 0.21401752190237797,
+   "fnr_theory": 0.15803585583402407
+  }
+ ],
+ "full_event_misses": {
+  "low": 0,
+  "mid": 0,
+  "high": 0
+ },
+ "event_level": [
+  {
+   "level_dbfs": -16.34,
+   "duration_ms": 111.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -12.996,
+   "duration_ms": 367.9,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -19.968,
+   "duration_ms": 278.0,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -15.203,
+   "duration_ms": 121.1,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -20.924,
+   "duration_ms": 324.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -20.586,
+   "duration_ms": 212.8,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -16.738,
+   "duration_ms": 385.6,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -22.172,
+   "duration_ms": 395.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -20.905,
+   "duration_ms": 291.9,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -13.947,
+   "duration_ms": 133.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -13.252,
+   "duration_ms": 184.5,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -21.706,
+   "duration_ms": 118.9,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -17.227,
+   "duration_ms": 357.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -14.451,
+   "duration_ms": 160.0,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -20.603,
+   "duration_ms": 84.9,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -14.054,
+   "duration_ms": 238.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -19.525,
+   "duration_ms": 174.0,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -16.757,
+   "duration_ms": 257.5,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -18.331,
+   "duration_ms": 264.8,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -16.377,
+   "duration_ms": 328.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -23.079,
+   "duration_ms": 161.6,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -14.257,
+   "duration_ms": 265.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -15.609,
+   "duration_ms": 99.0,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -14.848,
+   "duration_ms": 394.1,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -15.582,
+   "duration_ms": 299.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -17.835,
+   "duration_ms": 353.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -23.518,
+   "duration_ms": 361.9,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -19.245,
+   "duration_ms": 237.1,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -19.502,
+   "duration_ms": 374.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -16.413,
+   "duration_ms": 376.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -13.494,
+   "duration_ms": 294.5,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -17.258,
+   "duration_ms": 305.5,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -18.302,
+   "duration_ms": 225.8,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -21.731,
+   "duration_ms": 335.5,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -16.131,
+   "duration_ms": 368.8,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -20.646,
+   "duration_ms": 300.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -17.978,
+   "duration_ms": 398.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -22.297,
+   "duration_ms": 123.6,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -16.401,
+   "duration_ms": 343.8,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -12.36,
+   "duration_ms": 290.6,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -18.95,
+   "duration_ms": 189.5,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -22.726,
+   "duration_ms": 197.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -13.196,
+   "duration_ms": 194.6,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -12.19,
+   "duration_ms": 172.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -12.17,
+   "duration_ms": 211.8,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -22.711,
+   "duration_ms": 309.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -22.687,
+   "duration_ms": 320.0,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -14.701,
+   "duration_ms": 111.8,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -20.746,
+   "duration_ms": 253.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -17.506,
+   "duration_ms": 315.5,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -12.412,
+   "duration_ms": 286.9,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -19.251,
+   "duration_ms": 164.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -22.532,
+   "duration_ms": 335.2,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -18.437,
+   "duration_ms": 398.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -12.609,
+   "duration_ms": 379.0,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -12.031,
+   "duration_ms": 90.1,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -23.75,
+   "duration_ms": 168.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -22.288,
+   "duration_ms": 333.9,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -12.917,
+   "duration_ms": 115.4,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  },
+  {
+   "level_dbfs": -15.837,
+   "duration_ms": 153.0,
+   "low": 1,
+   "mid": 1,
+   "high": 1
+  }
+ ],
+ "n_events": 60
+}

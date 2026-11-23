@@ -8,4 +8,5 @@
 | `mixer/` | 增益斜坡混音、削波检测 |
 | `fft/` | 基 2 快速傅里叶变换、幅度、Parseval 校验 |
 | `limiter/` | 峰值限幅、启动释放包络、增益衰减报告 |
+| `sidechain/` | 旁链包络触发（attack/release/hold 状态机）、阈值分布与误/漏触发率分析 |
 | `spatial/` | 等功率声像、距离衰减 |
