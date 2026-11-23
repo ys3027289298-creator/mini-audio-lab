@@ -1,0 +1,1559 @@
+rect     L=   32 df=  40 FP=151 FN=16
+rect     L=   32 df=  50 FP=151 FN=16
+rect     L=   32 df=  60 FP=151 FN=16
+rect     L=   32 df=  70 FP=151 FN=16
+rect     L=   32 df=  80 FP=151 FN=16
+rect     L=   32 df=  90 FP=151 FN=16
+rect     L=   32 df= 100 FP=151 FN=16
+rect     L=   32 df= 110 FP=151 FN=16
+rect     L=   32 df= 120 FP=151 FN=16
+rect     L=   32 df= 130 FP=151 FN=16
+rect     L=   32 df= 140 FP=151 FN=16
+rect     L=   32 df= 150 FP=151 FN=16
+rect     L=   32 df= 160 FP=151 FN=16
+rect     L=   32 df= 170 FP=151 FN=16
+rect     L=   32 df= 180 FP=151 FN=16
+rect     L=   32 df= 190 FP=151 FN=16
+rect     L=   32 df= 200 FP=151 FN=16
+rect     L=   32 df= 210 FP=151 FN=16
+rect     L=   32 df= 220 FP=150 FN=16
+rect     L=   32 df= 230 FP=150 FN=16
+rect     L=   32 df= 240 FP=149 FN=16
+rect     L=   32 df= 250 FP=149 FN=16
+rect     L=   32 df= 260 FP=149 FN=16
+rect     L=   32 df= 270 FP=149 FN=16
+rect     L=   32 df= 280 FP=149 FN=16
+rect     L=   32 df= 290 FP=149 FN=16
+rect     L=   32 df= 300 FP=149 FN=16
+rect     L=   32 df= 310 FP=149 FN=16
+rect     L=   32 df= 320 FP=147 FN=16
+rect     L=   32 df= 330 FP=147 FN=16
+rect     L=   32 df= 340 FP=149 FN=16
+rect     L=   32 df= 350 FP=147 FN=16
+rect     L=   32 df= 360 FP=140 FN=16
+rect     L=   32 df= 370 FP=130 FN=16
+rect     L=   32 df= 380 FP=121 FN=16
+rect     L=   32 df= 390 FP=127 FN=16
+rect     L=   32 df= 400 FP=137 FN=16
+rect     L=   64 df=  40 FP=224 FN=16
+rect     L=   64 df=  50 FP=224 FN=16
+rect     L=   64 df=  60 FP=224 FN=16
+rect     L=   64 df=  70 FP=224 FN=16
+rect     L=   64 df=  80 FP=224 FN=16
+rect     L=   64 df=  90 FP=224 FN=16
+rect     L=   64 df= 100 FP=224 FN=16
+rect     L=   64 df= 110 FP=224 FN=16
+rect     L=   64 df= 120 FP=224 FN=16
+rect     L=   64 df= 130 FP=224 FN=16
+rect     L=   64 df= 140 FP=224 FN=16
+rect     L=   64 df= 150 FP=224 FN=16
+rect     L=   64 df= 160 FP=224 FN=16
+rect     L=   64 df= 170 FP=220 FN=16
+rect     L=   64 df= 180 FP=208 FN=16
+rect     L=   64 df= 190 FP=132 FN=16
+rect     L=   64 df= 200 FP=216 FN=16
+rect     L=   64 df= 210 FP=224 FN=16
+rect     L=   64 df= 220 FP=224 FN=16
+rect     L=   64 df= 230 FP=224 FN=16
+rect     L=   64 df= 240 FP=224 FN=16
+rect     L=   64 df= 250 FP=224 FN= 8
+rect     L=   64 df= 260 FP=224 FN= 8
+rect     L=   64 df= 270 FP=224 FN= 8
+rect     L=   64 df= 280 FP=229 FN=12
+rect     L=   64 df= 290 FP=225 FN= 8
+rect     L=   64 df= 300 FP=226 FN= 8
+rect     L=   64 df= 310 FP=226 FN= 8
+rect     L=   64 df= 320 FP=228 FN=10
+rect     L=   64 df= 330 FP=228 FN=10
+rect     L=   64 df= 340 FP=230 FN=12
+rect     L=   64 df= 350 FP=230 FN=12
+rect     L=   64 df= 360 FP=230 FN=12
+rect     L=   64 df= 370 FP=229 FN=12
+rect     L=   64 df= 380 FP=224 FN= 8
+rect     L=   64 df= 390 FP=224 FN= 8
+rect     L=   64 df= 400 FP=224 FN= 8
+rect     L=  128 df=  40 FP=224 FN=16
+rect     L=  128 df=  50 FP=224 FN=16
+rect     L=  128 df=  60 FP=224 FN=16
+rect     L=  128 df=  70 FP=224 FN=16
+rect     L=  128 df=  80 FP=224 FN=16
+rect     L=  128 df=  90 FP=204 FN=16
+rect     L=  128 df= 100 FP=222 FN=16
+rect     L=  128 df= 110 FP=224 FN=16
+rect     L=  128 df= 120 FP=224 FN=16
+rect     L=  128 df= 130 FP=224 FN= 8
+rect     L=  128 df= 140 FP=228 FN=12
+rect     L=  128 df= 150 FP=224 FN= 8
+rect     L=  128 df= 160 FP=226 FN=10
+rect     L=  128 df= 170 FP=228 FN=12
+rect     L=  128 df= 180 FP=228 FN=12
+rect     L=  128 df= 190 FP=224 FN= 8
+rect     L=  128 df= 200 FP=224 FN= 8
+rect     L=  128 df= 210 FP=224 FN= 8
+rect     L=  128 df= 220 FP=224 FN= 8
+rect     L=  128 df= 230 FP=224 FN= 8
+rect     L=  128 df= 240 FP=224 FN= 6
+rect     L=  128 df= 250 FP=224 FN= 0
+rect     L=  128 df= 260 FP=224 FN= 0
+rect     L=  128 df= 270 FP=224 FN= 0
+rect     L=  128 df= 280 FP=224 FN= 0
+rect     L=  128 df= 290 FP=224 FN= 0
+rect     L=  128 df= 300 FP=224 FN= 0
+rect     L=  128 df= 310 FP=224 FN= 0
+rect     L=  128 df= 320 FP=224 FN= 0
+rect     L=  128 df= 330 FP=224 FN= 0
+rect     L=  128 df= 340 FP=224 FN= 0
+rect     L=  128 df= 350 FP=224 FN= 0
+rect     L=  128 df= 360 FP=224 FN= 0
+rect     L=  128 df= 370 FP=224 FN= 0
+rect     L=  128 df= 380 FP=224 FN= 0
+rect     L=  128 df= 390 FP=224 FN= 0
+rect     L=  128 df= 400 FP=224 FN= 0
+rect     L=  256 df=  40 FP=224 FN=16
+rect     L=  256 df=  50 FP=224 FN=16
+rect     L=  256 df=  60 FP=224 FN=14
+rect     L=  256 df=  70 FP=228 FN=12
+rect     L=  256 df=  80 FP=224 FN= 8
+rect     L=  256 df=  90 FP=228 FN=12
+rect     L=  256 df= 100 FP=224 FN= 8
+rect     L=  256 df= 110 FP=224 FN= 8
+rect     L=  256 df= 120 FP=224 FN= 4
+rect     L=  256 df= 130 FP=224 FN= 0
+rect     L=  256 df= 140 FP=224 FN= 0
+rect     L=  256 df= 150 FP=224 FN= 0
+rect     L=  256 df= 160 FP=224 FN= 0
+rect     L=  256 df= 170 FP=224 FN= 0
+rect     L=  256 df= 180 FP=224 FN= 0
+rect     L=  256 df= 190 FP=224 FN= 0
+rect     L=  256 df= 200 FP=224 FN= 0
+rect     L=  256 df= 210 FP=224 FN= 0
+rect     L=  256 df= 220 FP=224 FN= 0
+rect     L=  256 df= 230 FP=224 FN= 0
+rect     L=  256 df= 240 FP=224 FN= 0
+rect     L=  256 df= 250 FP=224 FN= 0
+rect     L=  256 df= 260 FP=224 FN= 0
+rect     L=  256 df= 270 FP=224 FN= 0
+rect     L=  256 df= 280 FP=224 FN= 0
+rect     L=  256 df= 290 FP=224 FN= 0
+rect     L=  256 df= 300 FP=224 FN= 0
+rect     L=  256 df= 310 FP=224 FN= 0
+rect     L=  256 df= 320 FP=224 FN= 0
+rect     L=  256 df= 330 FP=224 FN= 0
+rect     L=  256 df= 340 FP=224 FN= 0
+rect     L=  256 df= 350 FP=224 FN= 0
+rect     L=  256 df= 360 FP=224 FN= 0
+rect     L=  256 df= 370 FP=224 FN= 0
+rect     L=  256 df= 380 FP=224 FN= 0
+rect     L=  256 df= 390 FP=224 FN= 0
+rect     L=  256 df= 400 FP=228 FN= 0
+rect     L=  512 df=  40 FP=224 FN= 8
+rect     L=  512 df=  50 FP=224 FN= 8
+rect     L=  512 df=  60 FP=224 FN= 4
+rect     L=  512 df=  70 FP=224 FN= 0
+rect     L=  512 df=  80 FP=224 FN= 0
+rect     L=  512 df=  90 FP=224 FN= 0
+rect     L=  512 df= 100 FP=224 FN= 0
+rect     L=  512 df= 110 FP=224 FN= 0
+rect     L=  512 df= 120 FP=224 FN= 0
+rect     L=  512 df= 130 FP=224 FN= 0
+rect     L=  512 df= 140 FP=224 FN= 0
+rect     L=  512 df= 150 FP=224 FN= 0
+rect     L=  512 df= 160 FP=224 FN= 0
+rect     L=  512 df= 170 FP=224 FN= 0
+rect     L=  512 df= 180 FP=224 FN= 0
+rect     L=  512 df= 190 FP=224 FN= 0
+rect     L=  512 df= 200 FP=224 FN= 0
+rect     L=  512 df= 210 FP=228 FN= 0
+rect     L=  512 df= 220 FP=232 FN= 0
+rect     L=  512 df= 230 FP=229 FN= 0
+rect     L=  512 df= 240 FP=232 FN= 0
+rect     L=  512 df= 250 FP=232 FN= 0
+rect     L=  512 df= 260 FP=240 FN= 0
+rect     L=  512 df= 270 FP=240 FN= 0
+rect     L=  512 df= 280 FP=242 FN= 0
+rect     L=  512 df= 290 FP=248 FN= 0
+rect     L=  512 df= 300 FP=248 FN= 0
+rect     L=  512 df= 310 FP=248 FN= 0
+rect     L=  512 df= 320 FP=248 FN= 0
+rect     L=  512 df= 330 FP=248 FN= 0
+rect     L=  512 df= 340 FP=248 FN= 0
+rect     L=  512 df= 350 FP=256 FN= 0
+rect     L=  512 df= 360 FP=256 FN= 0
+rect     L=  512 df= 370 FP=256 FN= 0
+rect     L=  512 df= 380 FP=260 FN= 0
+rect     L=  512 df= 390 FP=262 FN= 0
+rect     L=  512 df= 400 FP=264 FN= 0
+rect     L= 1024 df=  40 FP=224 FN= 0
+rect     L= 1024 df=  50 FP=224 FN= 0
+rect     L= 1024 df=  60 FP=224 FN= 0
+rect     L= 1024 df=  70 FP=224 FN= 0
+rect     L= 1024 df=  80 FP=224 FN= 0
+rect     L= 1024 df=  90 FP=224 FN= 0
+rect     L= 1024 df= 100 FP=224 FN= 0
+rect     L= 1024 df= 110 FP=232 FN= 0
+rect     L= 1024 df= 120 FP=232 FN= 0
+rect     L= 1024 df= 130 FP=240 FN= 0
+rect     L= 1024 df= 140 FP=242 FN= 0
+rect     L= 1024 df= 150 FP=248 FN= 0
+rect     L= 1024 df= 160 FP=248 FN= 0
+rect     L= 1024 df= 170 FP=248 FN= 0
+rect     L= 1024 df= 180 FP=256 FN= 0
+rect     L= 1024 df= 190 FP=258 FN= 0
+rect     L= 1024 df= 200 FP=264 FN= 0
+rect     L= 1024 df= 210 FP=264 FN= 0
+rect     L= 1024 df= 220 FP=264 FN= 0
+rect     L= 1024 df= 230 FP=272 FN= 0
+rect     L= 1024 df= 240 FP=280 FN= 0
+rect     L= 1024 df= 250 FP=280 FN= 0
+rect     L= 1024 df= 260 FP=280 FN= 0
+rect     L= 1024 df= 270 FP=288 FN= 0
+rect     L= 1024 df= 280 FP=288 FN= 0
+rect     L= 1024 df= 290 FP=296 FN= 0
+rect     L= 1024 df= 300 FP=296 FN= 0
+rect     L= 1024 df= 310 FP=296 FN= 0
+rect     L= 1024 df= 320 FP=304 FN= 0
+rect     L= 1024 df= 330 FP=308 FN= 0
+rect     L= 1024 df= 340 FP=312 FN= 0
+rect     L= 1024 df= 350 FP=312 FN= 0
+rect     L= 1024 df= 360 FP=312 FN= 0
+rect     L= 1024 df= 370 FP=320 FN= 0
+rect     L= 1024 df= 380 FP=328 FN= 0
+rect     L= 1024 df= 390 FP=328 FN= 0
+rect     L= 1024 df= 400 FP=328 FN= 0
+rect     L= 2048 df=  40 FP=224 FN= 0
+rect     L= 2048 df=  50 FP=224 FN= 0
+rect     L= 2048 df=  60 FP=232 FN= 0
+rect     L= 2048 df=  70 FP=242 FN= 0
+rect     L= 2048 df=  80 FP=248 FN= 0
+rect     L= 2048 df=  90 FP=256 FN= 0
+rect     L= 2048 df= 100 FP=264 FN= 0
+rect     L= 2048 df= 110 FP=264 FN= 0
+rect     L= 2048 df= 120 FP=280 FN= 0
+rect     L= 2048 df= 130 FP=280 FN= 0
+rect     L= 2048 df= 140 FP=288 FN= 0
+rect     L= 2048 df= 150 FP=296 FN= 0
+rect     L= 2048 df= 160 FP=304 FN= 0
+rect     L= 2048 df= 170 FP=312 FN= 0
+rect     L= 2048 df= 180 FP=312 FN= 0
+rect     L= 2048 df= 190 FP=328 FN= 0
+rect     L= 2048 df= 200 FP=328 FN= 0
+rect     L= 2048 df= 210 FP=335 FN= 0
+rect     L= 2048 df= 220 FP=344 FN= 0
+rect     L= 2048 df= 230 FP=352 FN= 0
+rect     L= 2048 df= 240 FP=360 FN= 0
+rect     L= 2048 df= 250 FP=360 FN= 0
+rect     L= 2048 df= 260 FP=376 FN= 0
+rect     L= 2048 df= 270 FP=376 FN= 0
+rect     L= 2048 df= 280 FP=382 FN= 0
+rect     L= 2048 df= 290 FP=392 FN= 0
+rect     L= 2048 df= 300 FP=398 FN= 0
+rect     L= 2048 df= 310 FP=408 FN= 0
+rect     L= 2048 df= 320 FP=408 FN= 0
+rect     L= 2048 df= 330 FP=420 FN= 0
+rect     L= 2048 df= 340 FP=424 FN= 0
+rect     L= 2048 df= 350 FP=430 FN= 0
+rect     L= 2048 df= 360 FP=440 FN= 0
+rect     L= 2048 df= 370 FP=446 FN= 0
+rect     L= 2048 df= 380 FP=456 FN= 0
+rect     L= 2048 df= 390 FP=456 FN= 0
+rect     L= 2048 df= 400 FP=466 FN= 0
+rect     L= 4096 df=  40 FP=248 FN= 0
+rect     L= 4096 df=  50 FP=264 FN= 0
+rect     L= 4096 df=  60 FP=280 FN= 0
+rect     L= 4096 df=  70 FP=288 FN= 0
+rect     L= 4096 df=  80 FP=304 FN= 0
+rect     L= 4096 df=  90 FP=312 FN= 0
+rect     L= 4096 df= 100 FP=328 FN= 0
+rect     L= 4096 df= 110 FP=342 FN= 0
+rect     L= 4096 df= 120 FP=360 FN= 0
+rect     L= 4096 df= 130 FP=374 FN= 0
+rect     L= 4096 df= 140 FP=382 FN= 0
+rect     L= 4096 df= 150 FP=399 FN= 0
+rect     L= 4096 df= 160 FP=408 FN= 0
+rect     L= 4096 df= 170 FP=424 FN= 0
+rect     L= 4096 df= 180 FP=440 FN= 0
+rect     L= 4096 df= 190 FP=456 FN= 0
+rect     L= 4096 df= 200 FP=466 FN= 0
+rect     L= 4096 df= 210 FP=476 FN= 0
+rect     L= 4096 df= 220 FP=494 FN= 0
+rect     L= 4096 df= 230 FP=504 FN= 0
+rect     L= 4096 df= 240 FP=520 FN= 0
+rect     L= 4096 df= 250 FP=536 FN= 0
+rect     L= 4096 df= 260 FP=552 FN= 0
+rect     L= 4096 df= 270 FP=554 FN= 0
+rect     L= 4096 df= 280 FP=568 FN= 0
+rect     L= 4096 df= 290 FP=586 FN= 0
+rect     L= 4096 df= 300 FP=600 FN= 0
+rect     L= 4096 df= 310 FP=616 FN= 0
+rect     L= 4096 df= 320 FP=632 FN= 0
+rect     L= 4096 df= 330 FP=642 FN= 0
+rect     L= 4096 df= 340 FP=639 FN= 0
+rect     L= 4096 df= 350 FP=664 FN= 0
+rect     L= 4096 df= 360 FP=682 FN= 0
+rect     L= 4096 df= 370 FP=696 FN= 0
+rect     L= 4096 df= 380 FP=712 FN= 0
+rect     L= 4096 df= 390 FP=728 FN= 0
+rect     L= 4096 df= 400 FP=727 FN= 0
+rect     L= 8192 df=  40 FP=304 FN= 0
+rect     L= 8192 df=  50 FP=328 FN= 0
+rect     L= 8192 df=  60 FP=360 FN= 0
+rect     L= 8192 df=  70 FP=380 FN= 0
+rect     L= 8192 df=  80 FP=408 FN= 0
+rect     L= 8192 df=  90 FP=440 FN= 0
+rect     L= 8192 df= 100 FP=465 FN= 0
+rect     L= 8192 df= 110 FP=494 FN= 0
+rect     L= 8192 df= 120 FP=520 FN= 0
+rect     L= 8192 df= 130 FP=552 FN= 0
+rect     L= 8192 df= 140 FP=568 FN= 0
+rect     L= 8192 df= 150 FP=600 FN= 0
+rect     L= 8192 df= 160 FP=632 FN= 0
+rect     L= 8192 df= 170 FP=640 FN= 0
+rect     L= 8192 df= 180 FP=682 FN= 0
+rect     L= 8192 df= 190 FP=712 FN= 0
+rect     L= 8192 df= 200 FP=726 FN= 0
+rect     L= 8192 df= 210 FP=752 FN= 0
+rect     L= 8192 df= 220 FP=792 FN= 0
+rect     L= 8192 df= 230 FP=824 FN= 0
+rect     L= 8192 df= 240 FP=798 FN= 0
+rect     L= 8192 df= 250 FP=874 FN= 0
+rect     L= 8192 df= 260 FP=904 FN= 0
+rect     L= 8192 df= 270 FP=864 FN= 0
+rect     L= 8192 df= 280 FP=926 FN= 0
+rect     L= 8192 df= 290 FP=984 FN= 0
+rect     L= 8192 df= 300 FP=972 FN= 0
+rect     L= 8192 df= 310 FP=945 FN= 0
+rect     L= 8192 df= 320 FP=1064 FN= 0
+rect     L= 8192 df= 330 FP=1078 FN= 0
+rect     L= 8192 df= 340 FP=986 FN= 0
+rect     L= 8192 df= 350 FP=1101 FN= 0
+rect     L= 8192 df= 360 FP=1176 FN= 0
+rect     L= 8192 df= 370 FP=1078 FN= 0
+rect     L= 8192 df= 380 FP=1090 FN= 0
+rect     L= 8192 df= 390 FP=1246 FN= 0
+rect     L= 8192 df= 400 FP=1205 FN= 0
+hann     L=   32 df=  40 FP=34 FN=16
+hann     L=   32 df=  50 FP=34 FN=16
+hann     L=   32 df=  60 FP=34 FN=16
+hann     L=   32 df=  70 FP=34 FN=16
+hann     L=   32 df=  80 FP=33 FN=16
+hann     L=   32 df=  90 FP=33 FN=16
+hann     L=   32 df= 100 FP=33 FN=16
+hann     L=   32 df= 110 FP=33 FN=16
+hann     L=   32 df= 120 FP=33 FN=16
+hann     L=   32 df= 130 FP=33 FN=16
+hann     L=   32 df= 140 FP=33 FN=16
+hann     L=   32 df= 150 FP=33 FN=16
+hann     L=   32 df= 160 FP=33 FN=16
+hann     L=   32 df= 170 FP=33 FN=16
+hann     L=   32 df= 180 FP=33 FN=16
+hann     L=   32 df= 190 FP=33 FN=16
+hann     L=   32 df= 200 FP=33 FN=16
+hann     L=   32 df= 210 FP=33 FN=16
+hann     L=   32 df= 220 FP=33 FN=16
+hann     L=   32 df= 230 FP=33 FN=16
+hann     L=   32 df= 240 FP=33 FN=16
+hann     L=   32 df= 250 FP=32 FN=16
+hann     L=   32 df= 260 FP=32 FN=16
+hann     L=   32 df= 270 FP=33 FN=16
+hann     L=   32 df= 280 FP=29 FN=16
+hann     L=   32 df= 290 FP=29 FN=16
+hann     L=   32 df= 300 FP=29 FN=16
+hann     L=   32 df= 310 FP=29 FN=16
+hann     L=   32 df= 320 FP=25 FN=16
+hann     L=   32 df= 330 FP=24 FN=16
+hann     L=   32 df= 340 FP=25 FN=16
+hann     L=   32 df= 350 FP=21 FN=16
+hann     L=   32 df= 360 FP=20 FN=16
+hann     L=   32 df= 370 FP=19 FN=16
+hann     L=   32 df= 380 FP=18 FN=16
+hann     L=   32 df= 390 FP=24 FN=16
+hann     L=   32 df= 400 FP=24 FN=16
+hann     L=   64 df=  40 FP=32 FN=16
+hann     L=   64 df=  50 FP=32 FN=16
+hann     L=   64 df=  60 FP=32 FN=16
+hann     L=   64 df=  70 FP=32 FN=16
+hann     L=   64 df=  80 FP=32 FN=16
+hann     L=   64 df=  90 FP=32 FN=16
+hann     L=   64 df= 100 FP=32 FN=16
+hann     L=   64 df= 110 FP=32 FN=16
+hann     L=   64 df= 120 FP=32 FN=16
+hann     L=   64 df= 130 FP=32 FN=16
+hann     L=   64 df= 140 FP=32 FN=16
+hann     L=   64 df= 150 FP=28 FN=16
+hann     L=   64 df= 160 FP=24 FN=16
+hann     L=   64 df= 170 FP=24 FN=16
+hann     L=   64 df= 180 FP=16 FN=16
+hann     L=   64 df= 190 FP=16 FN=16
+hann     L=   64 df= 200 FP=24 FN=16
+hann     L=   64 df= 210 FP=24 FN=16
+hann     L=   64 df= 220 FP=32 FN=16
+hann     L=   64 df= 230 FP=32 FN=16
+hann     L=   64 df= 240 FP=44 FN=16
+hann     L=   64 df= 250 FP=48 FN=16
+hann     L=   64 df= 260 FP=48 FN=16
+hann     L=   64 df= 270 FP=48 FN=16
+hann     L=   64 df= 280 FP=48 FN=16
+hann     L=   64 df= 290 FP=48 FN= 8
+hann     L=   64 df= 300 FP=52 FN=12
+hann     L=   64 df= 310 FP=56 FN=16
+hann     L=   64 df= 320 FP=72 FN=24
+hann     L=   64 df= 330 FP=76 FN=24
+hann     L=   64 df= 340 FP=76 FN=24
+hann     L=   64 df= 350 FP=80 FN=24
+hann     L=   64 df= 360 FP=80 FN=24
+hann     L=   64 df= 370 FP=80 FN=24
+hann     L=   64 df= 380 FP=80 FN=24
+hann     L=   64 df= 390 FP=76 FN=24
+hann     L=   64 df= 400 FP=80 FN=24
+hann     L=  128 df=  40 FP=32 FN=16
+hann     L=  128 df=  50 FP=32 FN=16
+hann     L=  128 df=  60 FP=32 FN=16
+hann     L=  128 df=  70 FP=28 FN=16
+hann     L=  128 df=  80 FP=24 FN=16
+hann     L=  128 df=  90 FP=16 FN=16
+hann     L=  128 df= 100 FP=24 FN=16
+hann     L=  128 df= 110 FP=28 FN=16
+hann     L=  128 df= 120 FP=48 FN=16
+hann     L=  128 df= 130 FP=48 FN=16
+hann     L=  128 df= 140 FP=48 FN= 8
+hann     L=  128 df= 150 FP=56 FN=16
+hann     L=  128 df= 160 FP=74 FN=24
+hann     L=  128 df= 170 FP=76 FN=24
+hann     L=  128 df= 180 FP=80 FN=24
+hann     L=  128 df= 190 FP=80 FN=24
+hann     L=  128 df= 200 FP=80 FN=24
+hann     L=  128 df= 210 FP=80 FN=24
+hann     L=  128 df= 220 FP=68 FN=20
+hann     L=  128 df= 230 FP=60 FN=20
+hann     L=  128 df= 240 FP=52 FN=12
+hann     L=  128 df= 250 FP=48 FN= 8
+hann     L=  128 df= 260 FP=64 FN= 8
+hann     L=  128 df= 270 FP=64 FN= 8
+hann     L=  128 df= 280 FP=64 FN= 0
+hann     L=  128 df= 290 FP=64 FN= 0
+hann     L=  128 df= 300 FP=64 FN= 8
+hann     L=  128 df= 310 FP=64 FN= 8
+hann     L=  128 df= 320 FP=68 FN=12
+hann     L=  128 df= 330 FP=56 FN= 8
+hann     L=  128 df= 340 FP=52 FN=12
+hann     L=  128 df= 350 FP=52 FN=12
+hann     L=  128 df= 360 FP=52 FN=12
+hann     L=  128 df= 370 FP=52 FN=12
+hann     L=  128 df= 380 FP=48 FN= 8
+hann     L=  128 df= 390 FP=48 FN= 8
+hann     L=  128 df= 400 FP=52 FN=12
+hann     L=  256 df=  40 FP=24 FN=16
+hann     L=  256 df=  50 FP=24 FN=16
+hann     L=  256 df=  60 FP=48 FN=16
+hann     L=  256 df=  70 FP=48 FN= 8
+hann     L=  256 df=  80 FP=76 FN=24
+hann     L=  256 df=  90 FP=80 FN=24
+hann     L=  256 df= 100 FP=80 FN=24
+hann     L=  256 df= 110 FP=68 FN=20
+hann     L=  256 df= 120 FP=48 FN= 8
+hann     L=  256 df= 130 FP=64 FN= 8
+hann     L=  256 df= 140 FP=64 FN= 0
+hann     L=  256 df= 150 FP=64 FN= 8
+hann     L=  256 df= 160 FP=68 FN=12
+hann     L=  256 df= 170 FP=52 FN=12
+hann     L=  256 df= 180 FP=52 FN=12
+hann     L=  256 df= 190 FP=48 FN= 8
+hann     L=  256 df= 200 FP=52 FN=12
+hann     L=  256 df= 210 FP=52 FN=12
+hann     L=  256 df= 220 FP=52 FN=12
+hann     L=  256 df= 230 FP=52 FN=12
+hann     L=  256 df= 240 FP=56 FN=16
+hann     L=  256 df= 250 FP=56 FN=16
+hann     L=  256 df= 260 FP=40 FN=16
+hann     L=  256 df= 270 FP=40 FN=16
+hann     L=  256 df= 280 FP=40 FN=16
+hann     L=  256 df= 290 FP=40 FN=16
+hann     L=  256 df= 300 FP=40 FN=16
+hann     L=  256 df= 310 FP=40 FN=16
+hann     L=  256 df= 320 FP=44 FN=20
+hann     L=  256 df= 330 FP=56 FN=24
+hann     L=  256 df= 340 FP=48 FN=16
+hann     L=  256 df= 350 FP=44 FN=12
+hann     L=  256 df= 360 FP=40 FN= 8
+hann     L=  256 df= 370 FP=32 FN= 0
+hann     L=  256 df= 380 FP=40 FN= 0
+hann     L=  256 df= 390 FP=42 FN= 0
+hann     L=  256 df= 400 FP=42 FN= 0
+hann     L=  512 df=  40 FP=76 FN=24
+hann     L=  512 df=  50 FP=80 FN=24
+hann     L=  512 df=  60 FP=48 FN= 8
+hann     L=  512 df=  70 FP=64 FN= 0
+hann     L=  512 df=  80 FP=68 FN=12
+hann     L=  512 df=  90 FP=52 FN=12
+hann     L=  512 df= 100 FP=52 FN=12
+hann     L=  512 df= 110 FP=52 FN=12
+hann     L=  512 df= 120 FP=56 FN=16
+hann     L=  512 df= 130 FP=40 FN=16
+hann     L=  512 df= 140 FP=40 FN=16
+hann     L=  512 df= 150 FP=40 FN=16
+hann     L=  512 df= 160 FP=48 FN=24
+hann     L=  512 df= 170 FP=48 FN=16
+hann     L=  512 df= 180 FP=40 FN= 8
+hann     L=  512 df= 190 FP=44 FN= 0
+hann     L=  512 df= 200 FP=40 FN= 0
+hann     L=  512 df= 210 FP=32 FN= 0
+hann     L=  512 df= 220 FP=32 FN= 0
+hann     L=  512 df= 230 FP=32 FN= 0
+hann     L=  512 df= 240 FP=32 FN= 0
+hann     L=  512 df= 250 FP=32 FN= 0
+hann     L=  512 df= 260 FP=32 FN= 0
+hann     L=  512 df= 270 FP=32 FN= 0
+hann     L=  512 df= 280 FP=32 FN= 0
+hann     L=  512 df= 290 FP=32 FN= 0
+hann     L=  512 df= 300 FP=32 FN= 0
+hann     L=  512 df= 310 FP=32 FN= 0
+hann     L=  512 df= 320 FP=32 FN= 0
+hann     L=  512 df= 330 FP=32 FN= 0
+hann     L=  512 df= 340 FP=32 FN= 0
+hann     L=  512 df= 350 FP=32 FN= 0
+hann     L=  512 df= 360 FP=32 FN= 0
+hann     L=  512 df= 370 FP=32 FN= 0
+hann     L=  512 df= 380 FP=32 FN= 0
+hann     L=  512 df= 390 FP=32 FN= 0
+hann     L=  512 df= 400 FP=36 FN= 0
+hann     L= 1024 df=  40 FP=68 FN=12
+hann     L= 1024 df=  50 FP=52 FN=12
+hann     L= 1024 df=  60 FP=56 FN=16
+hann     L= 1024 df=  70 FP=40 FN=16
+hann     L= 1024 df=  80 FP=48 FN=24
+hann     L= 1024 df=  90 FP=40 FN= 8
+hann     L= 1024 df= 100 FP=40 FN= 0
+hann     L= 1024 df= 110 FP=32 FN= 0
+hann     L= 1024 df= 120 FP=32 FN= 0
+hann     L= 1024 df= 130 FP=32 FN= 0
+hann     L= 1024 df= 140 FP=32 FN= 0
+hann     L= 1024 df= 150 FP=32 FN= 0
+hann     L= 1024 df= 160 FP=32 FN= 0
+hann     L= 1024 df= 170 FP=32 FN= 0
+hann     L= 1024 df= 180 FP=32 FN= 0
+hann     L= 1024 df= 190 FP=32 FN= 0
+hann     L= 1024 df= 200 FP=36 FN= 0
+hann     L= 1024 df= 210 FP=40 FN= 0
+hann     L= 1024 df= 220 FP=44 FN= 0
+hann     L= 1024 df= 230 FP=40 FN= 0
+hann     L= 1024 df= 240 FP=52 FN= 0
+hann     L= 1024 df= 250 FP=56 FN= 0
+hann     L= 1024 df= 260 FP=56 FN= 0
+hann     L= 1024 df= 270 FP=64 FN= 0
+hann     L= 1024 df= 280 FP=64 FN= 0
+hann     L= 1024 df= 290 FP=64 FN= 0
+hann     L= 1024 df= 300 FP=68 FN= 0
+hann     L= 1024 df= 310 FP=64 FN= 0
+hann     L= 1024 df= 320 FP=64 FN= 0
+hann     L= 1024 df= 330 FP=72 FN= 0
+hann     L= 1024 df= 340 FP=72 FN= 0
+hann     L= 1024 df= 350 FP=64 FN= 0
+hann     L= 1024 df= 360 FP=64 FN= 0
+hann     L= 1024 df= 370 FP=64 FN= 0
+hann     L= 1024 df= 380 FP=64 FN= 0
+hann     L= 1024 df= 390 FP=64 FN= 0
+hann     L= 1024 df= 400 FP=64 FN= 0
+hann     L= 2048 df=  40 FP=48 FN=24
+hann     L= 2048 df=  50 FP=40 FN= 0
+hann     L= 2048 df=  60 FP=32 FN= 0
+hann     L= 2048 df=  70 FP=32 FN= 0
+hann     L= 2048 df=  80 FP=32 FN= 0
+hann     L= 2048 df=  90 FP=32 FN= 0
+hann     L= 2048 df= 100 FP=36 FN= 0
+hann     L= 2048 df= 110 FP=44 FN= 0
+hann     L= 2048 df= 120 FP=50 FN= 0
+hann     L= 2048 df= 130 FP=60 FN= 0
+hann     L= 2048 df= 140 FP=64 FN= 0
+hann     L= 2048 df= 150 FP=68 FN= 0
+hann     L= 2048 df= 160 FP=64 FN= 0
+hann     L= 2048 df= 170 FP=72 FN= 0
+hann     L= 2048 df= 180 FP=64 FN= 0
+hann     L= 2048 df= 190 FP=64 FN= 0
+hann     L= 2048 df= 200 FP=64 FN= 0
+hann     L= 2048 df= 210 FP=64 FN= 0
+hann     L= 2048 df= 220 FP=64 FN= 0
+hann     L= 2048 df= 230 FP=64 FN= 0
+hann     L= 2048 df= 240 FP=64 FN= 0
+hann     L= 2048 df= 250 FP=64 FN= 0
+hann     L= 2048 df= 260 FP=64 FN= 0
+hann     L= 2048 df= 270 FP=64 FN= 0
+hann     L= 2048 df= 280 FP=64 FN= 0
+hann     L= 2048 df= 290 FP=64 FN= 0
+hann     L= 2048 df= 300 FP=64 FN= 0
+hann     L= 2048 df= 310 FP=64 FN= 0
+hann     L= 2048 df= 320 FP=64 FN= 0
+hann     L= 2048 df= 330 FP=64 FN= 0
+hann     L= 2048 df= 340 FP=64 FN= 0
+hann     L= 2048 df= 350 FP=64 FN= 0
+hann     L= 2048 df= 360 FP=64 FN= 0
+hann     L= 2048 df= 370 FP=64 FN= 0
+hann     L= 2048 df= 380 FP=64 FN= 0
+hann     L= 2048 df= 390 FP=64 FN= 0
+hann     L= 2048 df= 400 FP=64 FN= 0
+hann     L= 4096 df=  40 FP=32 FN= 0
+hann     L= 4096 df=  50 FP=36 FN= 0
+hann     L= 4096 df=  60 FP=48 FN= 0
+hann     L= 4096 df=  70 FP=64 FN= 0
+hann     L= 4096 df=  80 FP=64 FN= 0
+hann     L= 4096 df=  90 FP=64 FN= 0
+hann     L= 4096 df= 100 FP=64 FN= 0
+hann     L= 4096 df= 110 FP=64 FN= 0
+hann     L= 4096 df= 120 FP=64 FN= 0
+hann     L= 4096 df= 130 FP=64 FN= 0
+hann     L= 4096 df= 140 FP=64 FN= 0
+hann     L= 4096 df= 150 FP=64 FN= 0
+hann     L= 4096 df= 160 FP=64 FN= 0
+hann     L= 4096 df= 170 FP=64 FN= 0
+hann     L= 4096 df= 180 FP=64 FN= 0
+hann     L= 4096 df= 190 FP=64 FN= 0
+hann     L= 4096 df= 200 FP=64 FN= 0
+hann     L= 4096 df= 210 FP=64 FN= 0
+hann     L= 4096 df= 220 FP=64 FN= 0
+hann     L= 4096 df= 230 FP=64 FN= 0
+hann     L= 4096 df= 240 FP=64 FN= 0
+hann     L= 4096 df= 250 FP=64 FN= 0
+hann     L= 4096 df= 260 FP=64 FN= 0
+hann     L= 4096 df= 270 FP=64 FN= 0
+hann     L= 4096 df= 280 FP=64 FN= 0
+hann     L= 4096 df= 290 FP=64 FN= 0
+hann     L= 4096 df= 300 FP=64 FN= 0
+hann     L= 4096 df= 310 FP=64 FN= 0
+hann     L= 4096 df= 320 FP=64 FN= 0
+hann     L= 4096 df= 330 FP=64 FN= 0
+hann     L= 4096 df= 340 FP=64 FN= 0
+hann     L= 4096 df= 350 FP=64 FN= 0
+hann     L= 4096 df= 360 FP=64 FN= 0
+hann     L= 4096 df= 370 FP=64 FN= 0
+hann     L= 4096 df= 380 FP=64 FN= 0
+hann     L= 4096 df= 390 FP=64 FN= 0
+hann     L= 4096 df= 400 FP=64 FN= 0
+hann     L= 8192 df=  40 FP=64 FN= 0
+hann     L= 8192 df=  50 FP=64 FN= 0
+hann     L= 8192 df=  60 FP=64 FN= 0
+hann     L= 8192 df=  70 FP=64 FN= 0
+hann     L= 8192 df=  80 FP=64 FN= 0
+hann     L= 8192 df=  90 FP=64 FN= 0
+hann     L= 8192 df= 100 FP=64 FN= 0
+hann     L= 8192 df= 110 FP=64 FN= 0
+hann     L= 8192 df= 120 FP=64 FN= 0
+hann     L= 8192 df= 130 FP=64 FN= 0
+hann     L= 8192 df= 140 FP=64 FN= 0
+hann     L= 8192 df= 150 FP=64 FN= 0
+hann     L= 8192 df= 160 FP=64 FN= 0
+hann     L= 8192 df= 170 FP=64 FN= 0
+hann     L= 8192 df= 180 FP=64 FN= 0
+hann     L= 8192 df= 190 FP=64 FN= 0
+hann     L= 8192 df= 200 FP=64 FN= 0
+hann     L= 8192 df= 210 FP=64 FN= 0
+hann     L= 8192 df= 220 FP=64 FN= 0
+hann     L= 8192 df= 230 FP=64 FN= 0
+hann     L= 8192 df= 240 FP=64 FN= 0
+hann     L= 8192 df= 250 FP=64 FN= 0
+hann     L= 8192 df= 260 FP=64 FN= 0
+hann     L= 8192 df= 270 FP=64 FN= 0
+hann     L= 8192 df= 280 FP=64 FN= 0
+hann     L= 8192 df= 290 FP=64 FN= 0
+hann     L= 8192 df= 300 FP=64 FN= 0
+hann     L= 8192 df= 310 FP=64 FN= 0
+hann     L= 8192 df= 320 FP=64 FN= 0
+hann     L= 8192 df= 330 FP=64 FN= 0
+hann     L= 8192 df= 340 FP=64 FN= 0
+hann     L= 8192 df= 350 FP=64 FN= 0
+hann     L= 8192 df= 360 FP=64 FN= 0
+hann     L= 8192 df= 370 FP=64 FN= 0
+hann     L= 8192 df= 380 FP=64 FN= 0
+hann     L= 8192 df= 390 FP=64 FN= 0
+hann     L= 8192 df= 400 FP=64 FN= 0
+hamming  L=   32 df=  40 FP=28 FN=16
+hamming  L=   32 df=  50 FP=30 FN=16
+hamming  L=   32 df=  60 FP=30 FN=16
+hamming  L=   32 df=  70 FP=29 FN=16
+hamming  L=   32 df=  80 FP=29 FN=16
+hamming  L=   32 df=  90 FP=30 FN=16
+hamming  L=   32 df= 100 FP=30 FN=16
+hamming  L=   32 df= 110 FP=31 FN=16
+hamming  L=   32 df= 120 FP=31 FN=16
+hamming  L=   32 df= 130 FP=30 FN=16
+hamming  L=   32 df= 140 FP=29 FN=16
+hamming  L=   32 df= 150 FP=28 FN=16
+hamming  L=   32 df= 160 FP=27 FN=16
+hamming  L=   32 df= 170 FP=27 FN=16
+hamming  L=   32 df= 180 FP=27 FN=16
+hamming  L=   32 df= 190 FP=27 FN=16
+hamming  L=   32 df= 200 FP=28 FN=16
+hamming  L=   32 df= 210 FP=26 FN=16
+hamming  L=   32 df= 220 FP=26 FN=16
+hamming  L=   32 df= 230 FP=26 FN=16
+hamming  L=   32 df= 240 FP=25 FN=16
+hamming  L=   32 df= 250 FP=24 FN=16
+hamming  L=   32 df= 260 FP=24 FN=16
+hamming  L=   32 df= 270 FP=24 FN=16
+hamming  L=   32 df= 280 FP=23 FN=16
+hamming  L=   32 df= 290 FP=23 FN=16
+hamming  L=   32 df= 300 FP=23 FN=16
+hamming  L=   32 df= 310 FP=24 FN=16
+hamming  L=   32 df= 320 FP=25 FN=16
+hamming  L=   32 df= 330 FP=25 FN=16
+hamming  L=   32 df= 340 FP=25 FN=16
+hamming  L=   32 df= 350 FP=25 FN=16
+hamming  L=   32 df= 360 FP=25 FN=16
+hamming  L=   32 df= 370 FP=25 FN=16
+hamming  L=   32 df= 380 FP=26 FN=16
+hamming  L=   32 df= 390 FP=24 FN=16
+hamming  L=   32 df= 400 FP=24 FN=16
+hamming  L=   64 df=  40 FP= 0 FN=16
+hamming  L=   64 df=  50 FP= 0 FN=16
+hamming  L=   64 df=  60 FP= 0 FN=16
+hamming  L=   64 df=  70 FP= 0 FN=16
+hamming  L=   64 df=  80 FP= 0 FN=16
+hamming  L=   64 df=  90 FP= 0 FN=16
+hamming  L=   64 df= 100 FP= 0 FN=16
+hamming  L=   64 df= 110 FP= 0 FN=16
+hamming  L=   64 df= 120 FP= 0 FN=16
+hamming  L=   64 df= 130 FP= 0 FN=16
+hamming  L=   64 df= 140 FP= 0 FN=16
+hamming  L=   64 df= 150 FP= 0 FN=16
+hamming  L=   64 df= 160 FP= 0 FN=16
+hamming  L=   64 df= 170 FP= 0 FN=16
+hamming  L=   64 df= 180 FP= 0 FN=16
+hamming  L=   64 df= 190 FP= 0 FN=16
+hamming  L=   64 df= 200 FP= 5 FN=16
+hamming  L=   64 df= 210 FP=24 FN=16
+hamming  L=   64 df= 220 FP=35 FN=16
+hamming  L=   64 df= 230 FP=44 FN=16
+hamming  L=   64 df= 240 FP=48 FN=16
+hamming  L=   64 df= 250 FP=58 FN=16
+hamming  L=   64 df= 260 FP=69 FN=16
+hamming  L=   64 df= 270 FP=78 FN=16
+hamming  L=   64 df= 280 FP=88 FN= 8
+hamming  L=   64 df= 290 FP=94 FN= 8
+hamming  L=   64 df= 300 FP=98 FN= 8
+hamming  L=   64 df= 310 FP=106 FN=16
+hamming  L=   64 df= 320 FP=106 FN=16
+hamming  L=   64 df= 330 FP=111 FN=20
+hamming  L=   64 df= 340 FP=110 FN=20
+hamming  L=   64 df= 350 FP=110 FN=20
+hamming  L=   64 df= 360 FP=111 FN=20
+hamming  L=   64 df= 370 FP=111 FN=20
+hamming  L=   64 df= 380 FP=107 FN=16
+hamming  L=   64 df= 390 FP=108 FN=16
+hamming  L=   64 df= 400 FP=108 FN=16
+hamming  L=  128 df=  40 FP= 0 FN=16
+hamming  L=  128 df=  50 FP= 0 FN=16
+hamming  L=  128 df=  60 FP= 0 FN=16
+hamming  L=  128 df=  70 FP= 0 FN=16
+hamming  L=  128 df=  80 FP= 0 FN=16
+hamming  L=  128 df=  90 FP= 0 FN=16
+hamming  L=  128 df= 100 FP= 0 FN=16
+hamming  L=  128 df= 110 FP=20 FN=16
+hamming  L=  128 df= 120 FP=60 FN=16
+hamming  L=  128 df= 130 FP=98 FN=16
+hamming  L=  128 df= 140 FP=106 FN= 8
+hamming  L=  128 df= 150 FP=110 FN=10
+hamming  L=  128 df= 160 FP=114 FN=16
+hamming  L=  128 df= 170 FP=118 FN=20
+hamming  L=  128 df= 180 FP=120 FN=20
+hamming  L=  128 df= 190 FP=116 FN=16
+hamming  L=  128 df= 200 FP=116 FN=16
+hamming  L=  128 df= 210 FP=116 FN=16
+hamming  L=  128 df= 220 FP=114 FN=16
+hamming  L=  128 df= 230 FP=122 FN=12
+hamming  L=  128 df= 240 FP=128 FN= 8
+hamming  L=  128 df= 250 FP=144 FN= 8
+hamming  L=  128 df= 260 FP=159 FN= 8
+hamming  L=  128 df= 270 FP=172 FN= 6
+hamming  L=  128 df= 280 FP=171 FN= 0
+hamming  L=  128 df= 290 FP=173 FN= 0
+hamming  L=  128 df= 300 FP=168 FN= 0
+hamming  L=  128 df= 310 FP=158 FN= 0
+hamming  L=  128 df= 320 FP=154 FN= 8
+hamming  L=  128 df= 330 FP=143 FN= 8
+hamming  L=  128 df= 340 FP=131 FN= 8
+hamming  L=  128 df= 350 FP=118 FN= 8
+hamming  L=  128 df= 360 FP=100 FN= 8
+hamming  L=  128 df= 370 FP=95 FN= 8
+hamming  L=  128 df= 380 FP=80 FN= 8
+hamming  L=  128 df= 390 FP=78 FN= 8
+hamming  L=  128 df= 400 FP=77 FN= 8
+hamming  L=  256 df=  40 FP= 0 FN=16
+hamming  L=  256 df=  50 FP= 0 FN=16
+hamming  L=  256 df=  60 FP=70 FN=16
+hamming  L=  256 df=  70 FP=112 FN= 8
+hamming  L=  256 df=  80 FP=117 FN=16
+hamming  L=  256 df=  90 FP=120 FN=20
+hamming  L=  256 df= 100 FP=118 FN=16
+hamming  L=  256 df= 110 FP=116 FN=16
+hamming  L=  256 df= 120 FP=135 FN= 8
+hamming  L=  256 df= 130 FP=160 FN= 8
+hamming  L=  256 df= 140 FP=173 FN= 0
+hamming  L=  256 df= 150 FP=171 FN= 0
+hamming  L=  256 df= 160 FP=155 FN= 8
+hamming  L=  256 df= 170 FP=122 FN= 8
+hamming  L=  256 df= 180 FP=100 FN= 8
+hamming  L=  256 df= 190 FP=81 FN= 8
+hamming  L=  256 df= 200 FP=77 FN= 8
+hamming  L=  256 df= 210 FP=74 FN= 8
+hamming  L=  256 df= 220 FP=76 FN=12
+hamming  L=  256 df= 230 FP=71 FN=12
+hamming  L=  256 df= 240 FP=62 FN=16
+hamming  L=  256 df= 250 FP=46 FN=16
+hamming  L=  256 df= 260 FP=40 FN=16
+hamming  L=  256 df= 270 FP=18 FN=16
+hamming  L=  256 df= 280 FP=14 FN=16
+hamming  L=  256 df= 290 FP=14 FN=16
+hamming  L=  256 df= 300 FP=25 FN=16
+hamming  L=  256 df= 310 FP=50 FN=10
+hamming  L=  256 df= 320 FP=64 FN= 0
+hamming  L=  256 df= 330 FP=82 FN= 0
+hamming  L=  256 df= 340 FP=100 FN= 0
+hamming  L=  256 df= 350 FP=96 FN= 0
+hamming  L=  256 df= 360 FP=89 FN= 0
+hamming  L=  256 df= 370 FP=84 FN= 0
+hamming  L=  256 df= 380 FP=74 FN= 0
+hamming  L=  256 df= 390 FP=73 FN= 0
+hamming  L=  256 df= 400 FP=72 FN= 0
+hamming  L=  512 df=  40 FP=118 FN=16
+hamming  L=  512 df=  50 FP=118 FN=16
+hamming  L=  512 df=  60 FP=134 FN= 8
+hamming  L=  512 df=  70 FP=174 FN= 0
+hamming  L=  512 df=  80 FP=157 FN= 8
+hamming  L=  512 df=  90 FP=99 FN= 8
+hamming  L=  512 df= 100 FP=79 FN= 8
+hamming  L=  512 df= 110 FP=76 FN=12
+hamming  L=  512 df= 120 FP=60 FN=16
+hamming  L=  512 df= 130 FP=40 FN=16
+hamming  L=  512 df= 140 FP=16 FN=16
+hamming  L=  512 df= 150 FP=30 FN=16
+hamming  L=  512 df= 160 FP=72 FN= 0
+hamming  L=  512 df= 170 FP=98 FN= 0
+hamming  L=  512 df= 180 FP=87 FN= 0
+hamming  L=  512 df= 190 FP=75 FN= 0
+hamming  L=  512 df= 200 FP=70 FN= 0
+hamming  L=  512 df= 210 FP=60 FN= 0
+hamming  L=  512 df= 220 FP=42 FN= 0
+hamming  L=  512 df= 230 FP=16 FN= 0
+hamming  L=  512 df= 240 FP=34 FN= 0
+hamming  L=  512 df= 250 FP=67 FN= 0
+hamming  L=  512 df= 260 FP=88 FN= 0
+hamming  L=  512 df= 270 FP=76 FN= 0
+hamming  L=  512 df= 280 FP=67 FN= 0
+hamming  L=  512 df= 290 FP=62 FN= 0
+hamming  L=  512 df= 300 FP=62 FN= 0
+hamming  L=  512 df= 310 FP=44 FN= 0
+hamming  L=  512 df= 320 FP=14 FN= 0
+hamming  L=  512 df= 330 FP=20 FN= 0
+hamming  L=  512 df= 340 FP=38 FN= 0
+hamming  L=  512 df= 350 FP=69 FN= 0
+hamming  L=  512 df= 360 FP=76 FN= 0
+hamming  L=  512 df= 370 FP=64 FN= 0
+hamming  L=  512 df= 380 FP=54 FN= 0
+hamming  L=  512 df= 390 FP=61 FN= 0
+hamming  L=  512 df= 400 FP=42 FN= 0
+hamming  L= 1024 df=  40 FP=160 FN= 8
+hamming  L= 1024 df=  50 FP=78 FN= 8
+hamming  L= 1024 df=  60 FP=60 FN=16
+hamming  L= 1024 df=  70 FP=16 FN=16
+hamming  L= 1024 df=  80 FP=74 FN= 0
+hamming  L= 1024 df=  90 FP=86 FN= 0
+hamming  L= 1024 df= 100 FP=72 FN= 0
+hamming  L= 1024 df= 110 FP=42 FN= 0
+hamming  L= 1024 df= 120 FP=35 FN= 0
+hamming  L= 1024 df= 130 FP=87 FN= 0
+hamming  L= 1024 df= 140 FP=64 FN= 0
+hamming  L= 1024 df= 150 FP=62 FN= 0
+hamming  L= 1024 df= 160 FP=14 FN= 0
+hamming  L= 1024 df= 170 FP=40 FN= 0
+hamming  L= 1024 df= 180 FP=77 FN= 0
+hamming  L= 1024 df= 190 FP=54 FN= 0
+hamming  L= 1024 df= 200 FP=42 FN= 0
+hamming  L= 1024 df= 210 FP=16 FN= 0
+hamming  L= 1024 df= 220 FP=47 FN= 0
+hamming  L= 1024 df= 230 FP=56 FN= 0
+hamming  L= 1024 df= 240 FP=50 FN= 0
+hamming  L= 1024 df= 250 FP=28 FN= 0
+hamming  L= 1024 df= 260 FP=22 FN= 0
+hamming  L= 1024 df= 270 FP=67 FN= 0
+hamming  L= 1024 df= 280 FP=60 FN= 0
+hamming  L= 1024 df= 290 FP=42 FN= 0
+hamming  L= 1024 df= 300 FP=20 FN= 0
+hamming  L= 1024 df= 310 FP=26 FN= 0
+hamming  L= 1024 df= 320 FP=70 FN= 0
+hamming  L= 1024 df= 330 FP=54 FN= 0
+hamming  L= 1024 df= 340 FP=34 FN= 0
+hamming  L= 1024 df= 350 FP=34 FN= 0
+hamming  L= 1024 df= 360 FP=38 FN= 0
+hamming  L= 1024 df= 370 FP=54 FN= 0
+hamming  L= 1024 df= 380 FP=52 FN= 0
+hamming  L= 1024 df= 390 FP=30 FN= 0
+hamming  L= 1024 df= 400 FP=32 FN= 0
+hamming  L= 2048 df=  40 FP=75 FN= 0
+hamming  L= 2048 df=  50 FP=72 FN= 0
+hamming  L= 2048 df=  60 FP=34 FN= 0
+hamming  L= 2048 df=  70 FP=65 FN= 0
+hamming  L= 2048 df=  80 FP=14 FN= 0
+hamming  L= 2048 df=  90 FP=74 FN= 0
+hamming  L= 2048 df= 100 FP=44 FN= 0
+hamming  L= 2048 df= 110 FP=48 FN= 0
+hamming  L= 2048 df= 120 FP=51 FN= 0
+hamming  L= 2048 df= 130 FP=24 FN= 0
+hamming  L= 2048 df= 140 FP=60 FN= 0
+hamming  L= 2048 df= 150 FP=20 FN= 0
+hamming  L= 2048 df= 160 FP=70 FN= 0
+hamming  L= 2048 df= 170 FP=34 FN= 0
+hamming  L= 2048 df= 180 FP=41 FN= 0
+hamming  L= 2048 df= 190 FP=52 FN= 0
+hamming  L= 2048 df= 200 FP=32 FN= 0
+hamming  L= 2048 df= 210 FP=54 FN= 0
+hamming  L= 2048 df= 220 FP=36 FN= 0
+hamming  L= 2048 df= 230 FP=32 FN= 0
+hamming  L= 2048 df= 240 FP=42 FN= 0
+hamming  L= 2048 df= 250 FP=19 FN= 0
+hamming  L= 2048 df= 260 FP=54 FN= 0
+hamming  L= 2048 df= 270 FP=26 FN= 0
+hamming  L= 2048 df= 280 FP=36 FN= 0
+hamming  L= 2048 df= 290 FP=48 FN= 0
+hamming  L= 2048 df= 300 FP=18 FN= 0
+hamming  L= 2048 df= 310 FP=58 FN= 0
+hamming  L= 2048 df= 320 FP= 8 FN= 0
+hamming  L= 2048 df= 330 FP=38 FN= 0
+hamming  L= 2048 df= 340 FP=10 FN= 0
+hamming  L= 2048 df= 350 FP=14 FN= 0
+hamming  L= 2048 df= 360 FP=38 FN= 0
+hamming  L= 2048 df= 370 FP= 8 FN= 0
+hamming  L= 2048 df= 380 FP=32 FN= 0
+hamming  L= 2048 df= 390 FP= 2 FN= 0
+hamming  L= 2048 df= 400 FP=16 FN= 0
+hamming  L= 4096 df=  40 FP=14 FN= 0
+hamming  L= 4096 df=  50 FP=44 FN= 0
+hamming  L= 4096 df=  60 FP=52 FN= 0
+hamming  L= 4096 df=  70 FP=59 FN= 0
+hamming  L= 4096 df=  80 FP=72 FN= 0
+hamming  L= 4096 df=  90 FP=42 FN= 0
+hamming  L= 4096 df= 100 FP=32 FN= 0
+hamming  L= 4096 df= 110 FP=37 FN= 0
+hamming  L= 4096 df= 120 FP=42 FN= 0
+hamming  L= 4096 df= 130 FP=56 FN= 0
+hamming  L= 4096 df= 140 FP=36 FN= 0
+hamming  L= 4096 df= 150 FP=19 FN= 0
+hamming  L= 4096 df= 160 FP= 8 FN= 0
+hamming  L= 4096 df= 170 FP=10 FN= 0
+hamming  L= 4096 df= 180 FP=38 FN= 0
+hamming  L= 4096 df= 190 FP=33 FN= 0
+hamming  L= 4096 df= 200 FP=16 FN= 0
+hamming  L= 4096 df= 210 FP=10 FN= 0
+hamming  L= 4096 df= 220 FP= 0 FN= 0
+hamming  L= 4096 df= 230 FP= 0 FN= 0
+hamming  L= 4096 df= 240 FP= 0 FN= 0
+hamming  L= 4096 df= 250 FP= 0 FN= 0
+hamming  L= 4096 df= 260 FP= 4 FN= 0
+hamming  L= 4096 df= 270 FP= 2 FN= 0
+hamming  L= 4096 df= 280 FP= 2 FN= 0
+hamming  L= 4096 df= 290 FP= 0 FN= 0
+hamming  L= 4096 df= 300 FP= 0 FN= 0
+hamming  L= 4096 df= 310 FP= 0 FN= 0
+hamming  L= 4096 df= 320 FP= 0 FN= 0
+hamming  L= 4096 df= 330 FP= 0 FN= 0
+hamming  L= 4096 df= 340 FP= 2 FN= 0
+hamming  L= 4096 df= 350 FP= 0 FN= 0
+hamming  L= 4096 df= 360 FP= 0 FN= 0
+hamming  L= 4096 df= 370 FP= 0 FN= 0
+hamming  L= 4096 df= 380 FP= 0 FN= 0
+hamming  L= 4096 df= 390 FP= 0 FN= 0
+hamming  L= 4096 df= 400 FP= 0 FN= 0
+hamming  L= 8192 df=  40 FP=73 FN= 0
+hamming  L= 8192 df=  50 FP=32 FN= 0
+hamming  L= 8192 df=  60 FP=42 FN= 0
+hamming  L= 8192 df=  70 FP=36 FN= 0
+hamming  L= 8192 df=  80 FP= 8 FN= 0
+hamming  L= 8192 df=  90 FP=38 FN= 0
+hamming  L= 8192 df= 100 FP=17 FN= 0
+hamming  L= 8192 df= 110 FP= 0 FN= 0
+hamming  L= 8192 df= 120 FP= 0 FN= 0
+hamming  L= 8192 df= 130 FP= 4 FN= 0
+hamming  L= 8192 df= 140 FP= 2 FN= 0
+hamming  L= 8192 df= 150 FP= 0 FN= 0
+hamming  L= 8192 df= 160 FP= 0 FN= 0
+hamming  L= 8192 df= 170 FP= 2 FN= 0
+hamming  L= 8192 df= 180 FP= 0 FN= 0
+hamming  L= 8192 df= 190 FP= 0 FN= 0
+hamming  L= 8192 df= 200 FP= 0 FN= 0
+hamming  L= 8192 df= 210 FP= 0 FN= 0
+hamming  L= 8192 df= 220 FP= 0 FN= 0
+hamming  L= 8192 df= 230 FP= 0 FN= 0
+hamming  L= 8192 df= 240 FP= 0 FN= 0
+hamming  L= 8192 df= 250 FP= 0 FN= 0
+hamming  L= 8192 df= 260 FP= 0 FN= 0
+hamming  L= 8192 df= 270 FP= 0 FN= 0
+hamming  L= 8192 df= 280 FP= 0 FN= 0
+hamming  L= 8192 df= 290 FP= 0 FN= 0
+hamming  L= 8192 df= 300 FP= 0 FN= 0
+hamming  L= 8192 df= 310 FP= 0 FN= 0
+hamming  L= 8192 df= 320 FP= 0 FN= 0
+hamming  L= 8192 df= 330 FP= 0 FN= 0
+hamming  L= 8192 df= 340 FP= 0 FN= 0
+hamming  L= 8192 df= 350 FP= 0 FN= 0
+hamming  L= 8192 df= 360 FP= 0 FN= 0
+hamming  L= 8192 df= 370 FP= 0 FN= 0
+hamming  L= 8192 df= 380 FP= 0 FN= 0
+hamming  L= 8192 df= 390 FP= 0 FN= 0
+hamming  L= 8192 df= 400 FP= 0 FN= 0
+blackman L=   32 df=  40 FP= 0 FN=16
+blackman L=   32 df=  50 FP= 0 FN=16
+blackman L=   32 df=  60 FP= 0 FN=16
+blackman L=   32 df=  70 FP= 0 FN=16
+blackman L=   32 df=  80 FP= 0 FN=16
+blackman L=   32 df=  90 FP= 0 FN=16
+blackman L=   32 df= 100 FP= 0 FN=16
+blackman L=   32 df= 110 FP= 0 FN=16
+blackman L=   32 df= 120 FP= 0 FN=16
+blackman L=   32 df= 130 FP= 0 FN=16
+blackman L=   32 df= 140 FP= 0 FN=16
+blackman L=   32 df= 150 FP= 0 FN=16
+blackman L=   32 df= 160 FP= 0 FN=16
+blackman L=   32 df= 170 FP= 0 FN=16
+blackman L=   32 df= 180 FP= 0 FN=16
+blackman L=   32 df= 190 FP= 0 FN=16
+blackman L=   32 df= 200 FP= 0 FN=16
+blackman L=   32 df= 210 FP= 0 FN=16
+blackman L=   32 df= 220 FP= 0 FN=16
+blackman L=   32 df= 230 FP= 0 FN=16
+blackman L=   32 df= 240 FP= 0 FN=16
+blackman L=   32 df= 250 FP= 0 FN=16
+blackman L=   32 df= 260 FP= 0 FN=16
+blackman L=   32 df= 270 FP= 0 FN=16
+blackman L=   32 df= 280 FP= 0 FN=16
+blackman L=   32 df= 290 FP= 0 FN=16
+blackman L=   32 df= 300 FP= 0 FN=16
+blackman L=   32 df= 310 FP= 0 FN=16
+blackman L=   32 df= 320 FP= 0 FN=16
+blackman L=   32 df= 330 FP= 0 FN=16
+blackman L=   32 df= 340 FP= 0 FN=16
+blackman L=   32 df= 350 FP= 0 FN=16
+blackman L=   32 df= 360 FP= 0 FN=16
+blackman L=   32 df= 370 FP= 0 FN=16
+blackman L=   32 df= 380 FP= 0 FN=16
+blackman L=   32 df= 390 FP= 0 FN=16
+blackman L=   32 df= 400 FP= 0 FN=16
+blackman L=   64 df=  40 FP= 0 FN=16
+blackman L=   64 df=  50 FP= 0 FN=16
+blackman L=   64 df=  60 FP= 0 FN=16
+blackman L=   64 df=  70 FP= 0 FN=16
+blackman L=   64 df=  80 FP= 0 FN=16
+blackman L=   64 df=  90 FP= 0 FN=16
+blackman L=   64 df= 100 FP= 0 FN=16
+blackman L=   64 df= 110 FP= 0 FN=16
+blackman L=   64 df= 120 FP= 0 FN=16
+blackman L=   64 df= 130 FP= 0 FN=16
+blackman L=   64 df= 140 FP= 0 FN=16
+blackman L=   64 df= 150 FP= 0 FN=16
+blackman L=   64 df= 160 FP= 0 FN=16
+blackman L=   64 df= 170 FP= 0 FN=16
+blackman L=   64 df= 180 FP= 0 FN=16
+blackman L=   64 df= 190 FP= 0 FN=16
+blackman L=   64 df= 200 FP= 0 FN=16
+blackman L=   64 df= 210 FP= 0 FN=16
+blackman L=   64 df= 220 FP= 0 FN=16
+blackman L=   64 df= 230 FP= 0 FN=16
+blackman L=   64 df= 240 FP= 0 FN=16
+blackman L=   64 df= 250 FP= 0 FN=16
+blackman L=   64 df= 260 FP= 0 FN=16
+blackman L=   64 df= 270 FP= 0 FN=16
+blackman L=   64 df= 280 FP= 0 FN=16
+blackman L=   64 df= 290 FP= 0 FN= 8
+blackman L=   64 df= 300 FP= 0 FN= 8
+blackman L=   64 df= 310 FP= 8 FN=16
+blackman L=   64 df= 320 FP=16 FN=24
+blackman L=   64 df= 330 FP=16 FN=24
+blackman L=   64 df= 340 FP=16 FN=24
+blackman L=   64 df= 350 FP=16 FN=24
+blackman L=   64 df= 360 FP=16 FN=24
+blackman L=   64 df= 370 FP=16 FN=24
+blackman L=   64 df= 380 FP=16 FN=24
+blackman L=   64 df= 390 FP=16 FN=24
+blackman L=   64 df= 400 FP=16 FN=24
+blackman L=  128 df=  40 FP= 0 FN=16
+blackman L=  128 df=  50 FP= 0 FN=16
+blackman L=  128 df=  60 FP= 0 FN=16
+blackman L=  128 df=  70 FP= 0 FN=16
+blackman L=  128 df=  80 FP= 0 FN=16
+blackman L=  128 df=  90 FP= 0 FN=16
+blackman L=  128 df= 100 FP= 0 FN=16
+blackman L=  128 df= 110 FP= 0 FN=16
+blackman L=  128 df= 120 FP= 0 FN=16
+blackman L=  128 df= 130 FP= 0 FN=16
+blackman L=  128 df= 140 FP= 0 FN=16
+blackman L=  128 df= 150 FP= 0 FN= 8
+blackman L=  128 df= 160 FP=16 FN=24
+blackman L=  128 df= 170 FP=16 FN=24
+blackman L=  128 df= 180 FP=16 FN=24
+blackman L=  128 df= 190 FP=16 FN=24
+blackman L=  128 df= 200 FP=16 FN=24
+blackman L=  128 df= 210 FP=16 FN=24
+blackman L=  128 df= 220 FP=16 FN=24
+blackman L=  128 df= 230 FP=12 FN=20
+blackman L=  128 df= 240 FP= 4 FN=12
+blackman L=  128 df= 250 FP= 0 FN= 8
+blackman L=  128 df= 260 FP= 0 FN= 8
+blackman L=  128 df= 270 FP= 0 FN= 8
+blackman L=  128 df= 280 FP= 0 FN=16
+blackman L=  128 df= 290 FP= 0 FN= 8
+blackman L=  128 df= 300 FP= 0 FN= 8
+blackman L=  128 df= 310 FP= 0 FN= 8
+blackman L=  128 df= 320 FP= 4 FN=12
+blackman L=  128 df= 330 FP= 8 FN=16
+blackman L=  128 df= 340 FP= 8 FN=16
+blackman L=  128 df= 350 FP=12 FN=20
+blackman L=  128 df= 360 FP=12 FN=20
+blackman L=  128 df= 370 FP=12 FN=20
+blackman L=  128 df= 380 FP= 8 FN=16
+blackman L=  128 df= 390 FP= 8 FN=16
+blackman L=  128 df= 400 FP= 8 FN=16
+blackman L=  256 df=  40 FP= 0 FN=16
+blackman L=  256 df=  50 FP= 0 FN=16
+blackman L=  256 df=  60 FP= 0 FN=16
+blackman L=  256 df=  70 FP= 0 FN=16
+blackman L=  256 df=  80 FP=16 FN=24
+blackman L=  256 df=  90 FP=16 FN=24
+blackman L=  256 df= 100 FP=16 FN=24
+blackman L=  256 df= 110 FP=16 FN=24
+blackman L=  256 df= 120 FP= 0 FN= 8
+blackman L=  256 df= 130 FP= 0 FN= 8
+blackman L=  256 df= 140 FP= 0 FN=16
+blackman L=  256 df= 150 FP= 0 FN= 8
+blackman L=  256 df= 160 FP= 4 FN=12
+blackman L=  256 df= 170 FP= 8 FN=16
+blackman L=  256 df= 180 FP=12 FN=20
+blackman L=  256 df= 190 FP= 8 FN=16
+blackman L=  256 df= 200 FP= 8 FN=16
+blackman L=  256 df= 210 FP= 4 FN=12
+blackman L=  256 df= 220 FP= 4 FN=12
+blackman L=  256 df= 230 FP= 4 FN=12
+blackman L=  256 df= 240 FP= 8 FN=16
+blackman L=  256 df= 250 FP= 8 FN=16
+blackman L=  256 df= 260 FP= 8 FN=16
+blackman L=  256 df= 270 FP= 8 FN=16
+blackman L=  256 df= 280 FP= 8 FN=16
+blackman L=  256 df= 290 FP=16 FN=32
+blackman L=  256 df= 300 FP=16 FN=32
+blackman L=  256 df= 310 FP=16 FN=32
+blackman L=  256 df= 320 FP=16 FN=32
+blackman L=  256 df= 330 FP=16 FN=32
+blackman L=  256 df= 340 FP=16 FN=32
+blackman L=  256 df= 350 FP= 8 FN=16
+blackman L=  256 df= 360 FP= 8 FN=16
+blackman L=  256 df= 370 FP= 8 FN=16
+blackman L=  256 df= 380 FP= 8 FN=16
+blackman L=  256 df= 390 FP=16 FN=16
+blackman L=  256 df= 400 FP= 4 FN= 4
+blackman L=  512 df=  40 FP=16 FN=24
+blackman L=  512 df=  50 FP=16 FN=24
+blackman L=  512 df=  60 FP= 0 FN= 8
+blackman L=  512 df=  70 FP= 0 FN=16
+blackman L=  512 df=  80 FP= 4 FN=12
+blackman L=  512 df=  90 FP=12 FN=20
+blackman L=  512 df= 100 FP= 8 FN=16
+blackman L=  512 df= 110 FP= 4 FN=12
+blackman L=  512 df= 120 FP= 8 FN=16
+blackman L=  512 df= 130 FP= 8 FN=16
+blackman L=  512 df= 140 FP= 8 FN=16
+blackman L=  512 df= 150 FP=16 FN=32
+blackman L=  512 df= 160 FP=16 FN=32
+blackman L=  512 df= 170 FP=16 FN=32
+blackman L=  512 df= 180 FP= 8 FN=16
+blackman L=  512 df= 190 FP= 8 FN=16
+blackman L=  512 df= 200 FP= 4 FN= 4
+blackman L=  512 df= 210 FP= 0 FN= 0
+blackman L=  512 df= 220 FP= 0 FN= 0
+blackman L=  512 df= 230 FP= 0 FN= 0
+blackman L=  512 df= 240 FP= 0 FN= 0
+blackman L=  512 df= 250 FP= 0 FN= 0
+blackman L=  512 df= 260 FP= 0 FN= 0
+blackman L=  512 df= 270 FP= 0 FN= 0
+blackman L=  512 df= 280 FP= 0 FN= 0
+blackman L=  512 df= 290 FP= 0 FN= 0
+blackman L=  512 df= 300 FP= 0 FN= 0
+blackman L=  512 df= 310 FP= 0 FN= 0
+blackman L=  512 df= 320 FP= 0 FN= 0
+blackman L=  512 df= 330 FP= 0 FN= 0
+blackman L=  512 df= 340 FP= 0 FN= 0
+blackman L=  512 df= 350 FP= 0 FN= 0
+blackman L=  512 df= 360 FP= 0 FN= 0
+blackman L=  512 df= 370 FP= 0 FN= 0
+blackman L=  512 df= 380 FP= 0 FN= 0
+blackman L=  512 df= 390 FP= 0 FN= 0
+blackman L=  512 df= 400 FP= 0 FN= 0
+blackman L= 1024 df=  40 FP= 4 FN=12
+blackman L= 1024 df=  50 FP= 8 FN=16
+blackman L= 1024 df=  60 FP= 8 FN=16
+blackman L= 1024 df=  70 FP= 8 FN=16
+blackman L= 1024 df=  80 FP=16 FN=32
+blackman L= 1024 df=  90 FP= 8 FN=16
+blackman L= 1024 df= 100 FP= 4 FN= 4
+blackman L= 1024 df= 110 FP= 0 FN= 0
+blackman L= 1024 df= 120 FP= 0 FN= 0
+blackman L= 1024 df= 130 FP= 0 FN= 0
+blackman L= 1024 df= 140 FP= 0 FN= 0
+blackman L= 1024 df= 150 FP= 0 FN= 0
+blackman L= 1024 df= 160 FP= 0 FN= 0
+blackman L= 1024 df= 170 FP= 0 FN= 0
+blackman L= 1024 df= 180 FP= 0 FN= 0
+blackman L= 1024 df= 190 FP= 0 FN= 0
+blackman L= 1024 df= 200 FP= 0 FN= 0
+blackman L= 1024 df= 210 FP= 0 FN= 0
+blackman L= 1024 df= 220 FP= 0 FN= 0
+blackman L= 1024 df= 230 FP= 0 FN= 0
+blackman L= 1024 df= 240 FP= 0 FN= 0
+blackman L= 1024 df= 250 FP= 0 FN= 0
+blackman L= 1024 df= 260 FP= 0 FN= 0
+blackman L= 1024 df= 270 FP= 0 FN= 0
+blackman L= 1024 df= 280 FP= 0 FN= 0
+blackman L= 1024 df= 290 FP= 0 FN= 0
+blackman L= 1024 df= 300 FP= 0 FN= 0
+blackman L= 1024 df= 310 FP= 0 FN= 0
+blackman L= 1024 df= 320 FP= 0 FN= 0
+blackman L= 1024 df= 330 FP= 0 FN= 0
+blackman L= 1024 df= 340 FP= 0 FN= 0
+blackman L= 1024 df= 350 FP= 0 FN= 0
+blackman L= 1024 df= 360 FP= 0 FN= 0
+blackman L= 1024 df= 370 FP= 0 FN= 0
+blackman L= 1024 df= 380 FP= 0 FN= 0
+blackman L= 1024 df= 390 FP= 0 FN= 0
+blackman L= 1024 df= 400 FP= 0 FN= 0
+blackman L= 2048 df=  40 FP=16 FN=32
+blackman L= 2048 df=  50 FP= 4 FN= 4
+blackman L= 2048 df=  60 FP= 0 FN= 0
+blackman L= 2048 df=  70 FP= 0 FN= 0
+blackman L= 2048 df=  80 FP= 0 FN= 0
+blackman L= 2048 df=  90 FP= 0 FN= 0
+blackman L= 2048 df= 100 FP= 0 FN= 0
+blackman L= 2048 df= 110 FP= 0 FN= 0
+blackman L= 2048 df= 120 FP= 0 FN= 0
+blackman L= 2048 df= 130 FP= 0 FN= 0
+blackman L= 2048 df= 140 FP= 0 FN= 0
+blackman L= 2048 df= 150 FP= 0 FN= 0
+blackman L= 2048 df= 160 FP= 0 FN= 0
+blackman L= 2048 df= 170 FP= 0 FN= 0
+blackman L= 2048 df= 180 FP= 0 FN= 0
+blackman L= 2048 df= 190 FP= 0 FN= 0
+blackman L= 2048 df= 200 FP= 0 FN= 0
+blackman L= 2048 df= 210 FP= 0 FN= 0
+blackman L= 2048 df= 220 FP= 0 FN= 0
+blackman L= 2048 df= 230 FP= 0 FN= 0
+blackman L= 2048 df= 240 FP= 0 FN= 0
+blackman L= 2048 df= 250 FP= 0 FN= 0
+blackman L= 2048 df= 260 FP= 0 FN= 0
+blackman L= 2048 df= 270 FP= 0 FN= 0
+blackman L= 2048 df= 280 FP= 0 FN= 0
+blackman L= 2048 df= 290 FP= 0 FN= 0
+blackman L= 2048 df= 300 FP= 0 FN= 0
+blackman L= 2048 df= 310 FP= 0 FN= 0
+blackman L= 2048 df= 320 FP= 0 FN= 0
+blackman L= 2048 df= 330 FP= 0 FN= 0
+blackman L= 2048 df= 340 FP= 0 FN= 0
+blackman L= 2048 df= 350 FP= 0 FN= 0
+blackman L= 2048 df= 360 FP= 0 FN= 0
+blackman L= 2048 df= 370 FP= 0 FN= 0
+blackman L= 2048 df= 380 FP= 0 FN= 0
+blackman L= 2048 df= 390 FP= 0 FN= 0
+blackman L= 2048 df= 400 FP= 0 FN= 0
+blackman L= 4096 df=  40 FP= 0 FN= 0
+blackman L= 4096 df=  50 FP= 0 FN= 0
+blackman L= 4096 df=  60 FP= 0 FN= 0
+blackman L= 4096 df=  70 FP= 0 FN= 0
+blackman L= 4096 df=  80 FP= 0 FN= 0
+blackman L= 4096 df=  90 FP= 0 FN= 0
+blackman L= 4096 df= 100 FP= 0 FN= 0
+blackman L= 4096 df= 110 FP= 0 FN= 0
+blackman L= 4096 df= 120 FP= 0 FN= 0
+blackman L= 4096 df= 130 FP= 0 FN= 0
+blackman L= 4096 df= 140 FP= 0 FN= 0
+blackman L= 4096 df= 150 FP= 0 FN= 0
+blackman L= 4096 df= 160 FP= 0 FN= 0
+blackman L= 4096 df= 170 FP= 0 FN= 0
+blackman L= 4096 df= 180 FP= 0 FN= 0
+blackman L= 4096 df= 190 FP= 0 FN= 0
+blackman L= 4096 df= 200 FP= 0 FN= 0
+blackman L= 4096 df= 210 FP= 0 FN= 0
+blackman L= 4096 df= 220 FP= 0 FN= 0
+blackman L= 4096 df= 230 FP= 0 FN= 0
+blackman L= 4096 df= 240 FP= 0 FN= 0
+blackman L= 4096 df= 250 FP= 0 FN= 0
+blackman L= 4096 df= 260 FP= 0 FN= 0
+blackman L= 4096 df= 270 FP= 0 FN= 0
+blackman L= 4096 df= 280 FP= 0 FN= 0
+blackman L= 4096 df= 290 FP= 0 FN= 0
+blackman L= 4096 df= 300 FP= 0 FN= 0
+blackman L= 4096 df= 310 FP= 0 FN= 0
+blackman L= 4096 df= 320 FP= 0 FN= 0
+blackman L= 4096 df= 330 FP= 0 FN= 0
+blackman L= 4096 df= 340 FP= 0 FN= 0
+blackman L= 4096 df= 350 FP= 0 FN= 0
+blackman L= 4096 df= 360 FP= 0 FN= 0
+blackman L= 4096 df= 370 FP= 0 FN= 0
+blackman L= 4096 df= 380 FP= 0 FN= 0
+blackman L= 4096 df= 390 FP= 0 FN= 0
+blackman L= 4096 df= 400 FP= 0 FN= 0
+blackman L= 8192 df=  40 FP= 0 FN= 0
+blackman L= 8192 df=  50 FP= 0 FN= 0
+blackman L= 8192 df=  60 FP= 0 FN= 0
+blackman L= 8192 df=  70 FP= 0 FN= 0
+blackman L= 8192 df=  80 FP= 0 FN= 0
+blackman L= 8192 df=  90 FP= 0 FN= 0
+blackman L= 8192 df= 100 FP= 0 FN= 0
+blackman L= 8192 df= 110 FP= 0 FN= 0
+blackman L= 8192 df= 120 FP= 0 FN= 0
+blackman L= 8192 df= 130 FP= 0 FN= 0
+blackman L= 8192 df= 140 FP= 0 FN= 0
+blackman L= 8192 df= 150 FP= 0 FN= 0
+blackman L= 8192 df= 160 FP= 0 FN= 0
+blackman L= 8192 df= 170 FP= 0 FN= 0
+blackman L= 8192 df= 180 FP= 0 FN= 0
+blackman L= 8192 df= 190 FP= 0 FN= 0
+blackman L= 8192 df= 200 FP= 0 FN= 0
+blackman L= 8192 df= 210 FP= 0 FN= 0
+blackman L= 8192 df= 220 FP= 0 FN= 0
+blackman L= 8192 df= 230 FP= 0 FN= 0
+blackman L= 8192 df= 240 FP= 0 FN= 0
+blackman L= 8192 df= 250 FP= 0 FN= 0
+blackman L= 8192 df= 260 FP= 0 FN= 0
+blackman L= 8192 df= 270 FP= 0 FN= 0
+blackman L= 8192 df= 280 FP= 0 FN= 0
+blackman L= 8192 df= 290 FP= 0 FN= 0
+blackman L= 8192 df= 300 FP= 0 FN= 0
+blackman L= 8192 df= 310 FP= 0 FN= 0
+blackman L= 8192 df= 320 FP= 0 FN= 0
+blackman L= 8192 df= 330 FP= 0 FN= 0
+blackman L= 8192 df= 340 FP= 0 FN= 0
+blackman L= 8192 df= 350 FP= 0 FN= 0
+blackman L= 8192 df= 360 FP= 0 FN= 0
+blackman L= 8192 df= 370 FP= 0 FN= 0
+blackman L= 8192 df= 380 FP= 0 FN= 0
+blackman L= 8192 df= 390 FP= 0 FN= 0
+blackman L= 8192 df= 400 FP= 0 FN= 0
+lcrit rect     df=  40 res=1024 full=None theory=  1588.8
+lcrit rect     df=  50 res=960 full=None theory=  1271.0
+lcrit rect     df=  60 res=800 full=None theory=  1059.2
+lcrit rect     df=  70 res=512 full=None theory=   907.9
+lcrit rect     df=  80 res=512 full=None theory=   794.4
+lcrit rect     df=  90 res=512 full=None theory=   706.1
+lcrit rect     df= 100 res=480 full=None theory=   635.5
+lcrit rect     df= 110 res=437 full=None theory=   577.7
+lcrit rect     df= 120 res=400 full=None theory=   529.6
+lcrit rect     df= 130 res=256 full=None theory=   488.9
+lcrit rect     df= 140 res=256 full=None theory=   453.9
+lcrit rect     df= 150 res=256 full=None theory=   423.7
+lcrit rect     df= 160 res=256 full=None theory=   397.2
+lcrit rect     df= 170 res=256 full=None theory=   373.8
+lcrit rect     df= 180 res=256 full=None theory=   353.1
+lcrit rect     df= 190 res=253 full=None theory=   334.5
+lcrit rect     df= 200 res=240 full=None theory=   317.8
+lcrit rect     df= 210 res=229 full=None theory=   302.6
+lcrit rect     df= 220 res=219 full=None theory=   288.9
+lcrit rect     df= 230 res=209 full=None theory=   276.3
+lcrit rect     df= 240 res=200 full=None theory=   264.8
+lcrit rect     df= 250 res=128 full=None theory=   254.2
+lcrit rect     df= 260 res=128 full=None theory=   244.4
+lcrit rect     df= 270 res=128 full=None theory=   235.4
+lcrit rect     df= 280 res=128 full=None theory=   227.0
+lcrit rect     df= 290 res=128 full=None theory=   219.1
+lcrit rect     df= 300 res=128 full=None theory=   211.8
+lcrit rect     df= 310 res=128 full=None theory=   205.0
+lcrit rect     df= 320 res=128 full=None theory=   198.6
+lcrit rect     df= 330 res=128 full=None theory=   192.6
+lcrit rect     df= 340 res=128 full=None theory=   186.9
+lcrit rect     df= 350 res=128 full=None theory=   181.6
+lcrit rect     df= 360 res=128 full=None theory=   176.5
+lcrit rect     df= 370 res=128 full=None theory=   171.8
+lcrit rect     df= 380 res=127 full=None theory=   167.2
+lcrit rect     df= 390 res=124 full=None theory=   163.0
+lcrit rect     df= 400 res=120 full=None theory=   158.9
+lcrit hann     df=  40 res=2336 full=None theory=  2262.0
+lcrit hann     df=  50 res=1891 full=None theory=  1809.6
+lcrit hann     df=  60 res=1568 full=None theory=  1508.0
+lcrit hann     df=  70 res=512 full=None theory=  1292.6
+lcrit hann     df=  80 res=1170 full=None theory=  1131.0
+lcrit hann     df=  90 res=1029 full=None theory=  1005.3
+lcrit hann     df= 100 res=946 full=None theory=   904.8
+lcrit hann     df= 110 res=857 full=None theory=   822.5
+lcrit hann     df= 120 res=785 full=None theory=   754.0
+lcrit hann     df= 130 res=723 full=None theory=   696.0
+lcrit hann     df= 140 res=256 full=None theory=   646.3
+lcrit hann     df= 150 res=625 full=None theory=   603.2
+lcrit hann     df= 160 res=586 full=None theory=   565.5
+lcrit hann     df= 170 res=551 full=None theory=   532.2
+lcrit hann     df= 180 res=515 full=None theory=   502.7
+lcrit hann     df= 190 res=499 full=None theory=   476.2
+lcrit hann     df= 200 res=475 full=None theory=   452.4
+lcrit hann     df= 210 res=451 full=None theory=   430.9
+lcrit hann     df= 220 res=429 full=None theory=   411.3
+lcrit hann     df= 230 res=411 full=None theory=   393.4
+lcrit hann     df= 240 res=393 full=None theory=   377.0
+lcrit hann     df= 250 res=378 full=None theory=   361.9
+lcrit hann     df= 260 res=362 full=None theory=   348.0
+lcrit hann     df= 270 res=349 full=None theory=   335.1
+lcrit hann     df= 280 res=128 full=None theory=   323.1
+lcrit hann     df= 290 res=128 full=None theory=   312.0
+lcrit hann     df= 300 res=313 full=None theory=   301.6
+lcrit hann     df= 310 res=303 full=None theory=   291.9
+lcrit hann     df= 320 res=294 full=None theory=   282.8
+lcrit hann     df= 330 res=285 full=None theory=   274.2
+lcrit hann     df= 340 res=276 full=None theory=   266.1
+lcrit hann     df= 350 res=268 full=None theory=   258.5
+lcrit hann     df= 360 res=258 full=None theory=   251.3
+lcrit hann     df= 370 res=253 full=None theory=   244.5
+lcrit hann     df= 380 res=250 full=None theory=   238.1
+lcrit hann     df= 390 res=243 full=None theory=   232.0
+lcrit hann     df= 400 res=238 full=None theory=   226.2
+lcrit hamming  df=  40 res=2013 full=None theory=  2004.0
+lcrit hamming  df=  50 res=1609 full=None theory=  1603.2
+lcrit hamming  df=  60 res=1339 full=None theory=  1336.0
+lcrit hamming  df=  70 res=512 full=None theory=  1145.1
+lcrit hamming  df=  80 res=1007 full=None theory=  1002.0
+lcrit hamming  df=  90 res=896 full=None theory=   890.7
+lcrit hamming  df= 100 res=805 full=None theory=   801.6
+lcrit hamming  df= 110 res=731 full=8066 theory=   728.7
+lcrit hamming  df= 120 res=670 full=8156 theory=   668.0
+lcrit hamming  df= 130 res=617 full=None theory=   616.6
+lcrit hamming  df= 140 res=256 full=None theory=   572.6
+lcrit hamming  df= 150 res=256 full=6849 theory=   534.4
+lcrit hamming  df= 160 res=506 full=7241 theory=   501.0
+lcrit hamming  df= 170 res=474 full=None theory=   471.5
+lcrit hamming  df= 180 res=448 full=6957 theory=   445.3
+lcrit hamming  df= 190 res=424 full=5404 theory=   421.9
+lcrit hamming  df= 200 res=403 full=5339 theory=   400.8
+lcrit hamming  df= 210 res=380 full=5102 theory=   381.7
+lcrit hamming  df= 220 res=366 full=4033 theory=   364.4
+lcrit hamming  df= 230 res=349 full=4065 theory=   348.5
+lcrit hamming  df= 240 res=335 full=4078 theory=   334.0
+lcrit hamming  df= 250 res=322 full=3929 theory=   320.6
+lcrit hamming  df= 260 res=309 full=4642 theory=   308.3
+lcrit hamming  df= 270 res=297 full=4640 theory=   296.9
+lcrit hamming  df= 280 res=128 full=4138 theory=   286.3
+lcrit hamming  df= 290 res=128 full=3072 theory=   276.4
+lcrit hamming  df= 300 res=128 full=3424 theory=   267.2
+lcrit hamming  df= 310 res=128 full=3740 theory=   258.6
+lcrit hamming  df= 320 res=253 full=2928 theory=   250.5
+lcrit hamming  df= 330 res=245 full=3399 theory=   242.9
+lcrit hamming  df= 340 res=238 full=4102 theory=   235.8
+lcrit hamming  df= 350 res=231 full=2934 theory=   229.0
+lcrit hamming  df= 360 res=224 full=3348 theory=   222.7
+lcrit hamming  df= 370 res=219 full=2408 theory=   216.6
+lcrit hamming  df= 380 res=213 full=2702 theory=   210.9
+lcrit hamming  df= 390 res=206 full=3335 theory=   205.5
+lcrit hamming  df= 400 res=202 full=2669 theory=   200.4
+lcrit blackman df=  40 res=2563 full=2563 theory=  2481.6
+lcrit blackman df=  50 res=2050 full=2050 theory=  1985.3
+lcrit blackman df=  60 res=1715 full=1715 theory=  1654.4
+lcrit blackman df=  70 res=1469 full=1469 theory=  1418.1
+lcrit blackman df=  80 res=1285 full=1285 theory=  1240.8
+lcrit blackman df=  90 res=1139 full=1139 theory=  1102.9
+lcrit blackman df= 100 res=1025 full=1025 theory=   992.6
+lcrit blackman df= 110 res=938 full=938 theory=   902.4
+lcrit blackman df= 120 res=861 full=861 theory=   827.2
+lcrit blackman df= 130 res=792 full=792 theory=   763.6
+lcrit blackman df= 140 res=736 full=736 theory=   709.0
+lcrit blackman df= 150 res=684 full=684 theory=   661.8
+lcrit blackman df= 160 res=643 full=643 theory=   620.4
+lcrit blackman df= 170 res=605 full=605 theory=   583.9
+lcrit blackman df= 180 res=570 full=570 theory=   551.5
+lcrit blackman df= 190 res=540 full=540 theory=   522.4
+lcrit blackman df= 200 res=513 full=513 theory=   496.3
+lcrit blackman df= 210 res=492 full=492 theory=   472.7
+lcrit blackman df= 220 res=469 full=469 theory=   451.2
+lcrit blackman df= 230 res=449 full=449 theory=   431.6
+lcrit blackman df= 240 res=431 full=431 theory=   413.6
+lcrit blackman df= 250 res=414 full=414 theory=   397.1
+lcrit blackman df= 260 res=398 full=398 theory=   381.8
+lcrit blackman df= 270 res=382 full=382 theory=   367.6
+lcrit blackman df= 280 res=369 full=369 theory=   354.5
+lcrit blackman df= 290 res=356 full=356 theory=   342.3
+lcrit blackman df= 300 res=343 full=343 theory=   330.9
+lcrit blackman df= 310 res=333 full=333 theory=   320.2
+lcrit blackman df= 320 res=322 full=322 theory=   310.2
+lcrit blackman df= 330 res=312 full=312 theory=   300.8
+lcrit blackman df= 340 res=303 full=303 theory=   292.0
+lcrit blackman df= 350 res=294 full=294 theory=   283.6
+lcrit blackman df= 360 res=285 full=285 theory=   275.7
+lcrit blackman df= 370 res=278 full=278 theory=   268.3
+lcrit blackman df= 380 res=271 full=271 theory=   261.2
+lcrit blackman df= 390 res=264 full=264 theory=   254.5
+lcrit blackman df= 400 res=257 full=257 theory=   248.2
+{
+  "fs": 48000.0,
+  "gate_db": 40.0,
+  "zp": 4,
+  "n_trials_per_cell": 16,
+  "L_grid": [
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192
+  ],
+  "df_grid_hz": [
+    40,
+    400,
+    10
+  ],
+  "crit_bin_theory": {
+    "rect": 1.324,
+    "hann": 1.885,
+    "hamming": 1.67,
+    "blackman": 2.068
+  },
+  "total_cells": 1332,
+  "cells_with_any_error": 1131,
+  "total_fp": 142134,
+  "total_fn": 9096,
+  "feasibility_predicate_monotone": true,
+  "gate_sensitivity_fp": {
+    "rect": {
+      "-20": 5,
+      "-30": 12,
+      "-40": 14,
+      "-50": 14,
+      "-60": 14
+    },
+    "hann": {
+      "-20": 0,
+      "-30": 0,
+      "-40": 2,
+      "-50": 6,
+      "-60": 10
+    },
+    "hamming": {
+      "-20": 0,
+      "-30": 0,
+      "-40": 0,
+      "-50": 11,
+      "-60": 13
+    },
+    "blackman": {
+      "-20": 0,
+      "-30": 0,
+      "-40": 0,
+      "-50": 0,
+      "-60": 4
+    }
+  },
+  "c_hat_res_bin": {
+    "rect": 0.9039352953382707,
+    "hann": 1.825929124292253,
+    "hamming": 1.5542801588264403,
+    "blackman": 2.1403185568129213
+  },
+  "c_hat_full_bin": {
+    "rect": null,
+    "hann": null,
+    "hamming": 21.613371228564297,
+    "blackman": 2.1403185568129213
+  },
+  "full_feasible_windows": [
+    "blackman",
+    "hamming"
+  ]
+}

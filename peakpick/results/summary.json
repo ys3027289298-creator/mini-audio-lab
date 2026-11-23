@@ -1,0 +1,79 @@
+{
+  "fs": 48000.0,
+  "gate_db": 40.0,
+  "zp": 4,
+  "n_trials_per_cell": 16,
+  "L_grid": [
+    32,
+    64,
+    128,
+    256,
+    512,
+    1024,
+    2048,
+    4096,
+    8192
+  ],
+  "df_grid_hz": [
+    40,
+    400,
+    10
+  ],
+  "crit_bin_theory": {
+    "rect": 1.324,
+    "hann": 1.885,
+    "hamming": 1.67,
+    "blackman": 2.068
+  },
+  "total_cells": 1332,
+  "cells_with_any_error": 1131,
+  "total_fp": 142134,
+  "total_fn": 9096,
+  "feasibility_predicate_monotone": true,
+  "gate_sensitivity_fp": {
+    "rect": {
+      "-20": 5,
+      "-30": 12,
+      "-40": 14,
+      "-50": 14,
+      "-60": 14
+    },
+    "hann": {
+      "-20": 0,
+      "-30": 0,
+      "-40": 2,
+      "-50": 6,
+      "-60": 10
+    },
+    "hamming": {
+      "-20": 0,
+      "-30": 0,
+      "-40": 0,
+      "-50": 11,
+      "-60": 13
+    },
+    "blackman": {
+      "-20": 0,
+      "-30": 0,
+      "-40": 0,
+      "-50": 0,
+      "-60": 4
+    }
+  },
+  "c_hat_res_bin": {
+    "rect": 0.9039352953382707,
+    "hann": 1.825929124292253,
+    "hamming": 1.5542801588264403,
+    "blackman": 2.1403185568129213
+  },
+  "c_hat_full_bin": {
+    "rect": null,
+    "hann": null,
+    "hamming": 21.613371228564297,
+    "blackman": 2.1403185568129213
+  },
+  "full_feasible_windows": [
+    "blackman",
+    "hamming"
+  ]
+}

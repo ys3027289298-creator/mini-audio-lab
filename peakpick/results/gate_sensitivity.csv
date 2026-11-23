@@ -1,0 +1,5 @@
+window,fp_gate_60dB,fp_gate_50dB,fp_gate_40dB,fp_gate_30dB,fp_gate_20dB
+rect,14,14,14,12,5
+hann,10,6,2,0,0
+hamming,13,11,0,0,0
+blackman,4,0,0,0,0
