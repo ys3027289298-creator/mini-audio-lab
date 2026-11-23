@@ -1,0 +1,3 @@
+# resampler
+
+`make test` 跑自检。
