@@ -1,0 +1,5 @@
+label,fc_frac,fc_hz,alias_residual_db,phase_distortion_rad,cascade_fold_vs_pass_db,passband_gain_db
+no_filter_baseline,0.0000,0.0,0.0000,0.00000,1.2494,0.0000
+P1_min_alias,0.0200,20.0,-83.18197237,0.1142427317,-34.741771,-40.286581
+P2_balanced,0.1800,180.0,-2.93681670,0.0276478290,-40.105237,-1.416741
+P3_min_phase,0.3000,300.0,17.08343025,0.0060370216,-14.358945,-0.006793
