@@ -1,0 +1,1 @@
+mode=gated freq=750.0 dither=0 seed=1234 peak=0.000316 err_rms=0.1685 err_dc=-0.00000 clipped=0 changed=0

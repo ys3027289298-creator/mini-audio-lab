@@ -1,0 +1,1 @@
+mode=sweep freq=750.0 dither=0 seed=1234 peak=0.500649 err_rms=0.2855 err_dc=+0.00004 clipped=0 changed=0

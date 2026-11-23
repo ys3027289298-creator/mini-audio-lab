@@ -1,0 +1,1 @@
+mode=tone60 freq=750.0 dither=1 seed=1234 peak=0.001000 err_rms=0.5011 err_dc=-0.00022 clipped=0 changed=50093

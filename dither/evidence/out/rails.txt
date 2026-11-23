@@ -1,0 +1,19 @@
+16-bit two's-complement rails
+  [ok ] -1.0 -> -32768: -32768 (want -32768)
+  [ok ] +1.0 -> 32767: 32767 (want 32767)
+  [ok ] 0.0 -> 0: 0 (want 0)
+  [ok ] 32766/32768 + up to 1 LSB dither stays in range: 32767 (want 32767)
+  [ok ] 1.0 + 0.999 dither saturates, does not wrap: 32767 (want 32767)
+  [ok ] -1.0 - 0.999 dither saturates, does not wrap: -32768 (want -32768)
+dither amplitude bounds, verified against the exported files
+  plain  err rms 0.311 LSB, peak 0.500 LSB, codes [-33, 33]
+  [ok ] plain error within +/-0.5 LSB: True (want True)
+  dither err rms 0.501 LSB, peak 1.486 LSB, codes [-34, 34]
+  [ok ] TPDF error within +/-1.5 LSB: True (want True)
+  [ok ] no dither-only clipping at -60 dBFS: 0 (want 0)
+  TPDF source variance 0.1671 LSB^2 (two uniforms => 1/6 = 0.1667), range [-0.996, 0.995]
+  [ok ] TPDF source variance matches D^2/6: True (want True)
+  [ok ] TPDF support within (-1, 1) LSB: True (want True)
+  total dither error variance 0.2511 LSB^2 (=> 0.25)
+  [ok ] total dither error variance matches 0.25: True (want True)
+all_ok=1

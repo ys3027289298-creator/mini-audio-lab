@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img"
+     aria-label="SNR vs tone level: dither vs none" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif">
+  <rect width="920" height="520" fill="#1a1a19"/>
+  <text x="78" y="26" font-size="17" font-weight="600" fill="#f0efec">SNR vs tone level: dither vs none</text>
+  <text x="78" y="46" font-size="12.5" fill="#c3c2b7">750 Hz tone, 3 s each; error measured against the same float input. Note: x-axis is amplitude, not time.</text>
+  <line x1="78" y1="386.3" x2="896" y2="386.3" stroke="#2c2c2a" stroke-width="1"/><text x="68" y="390.3" text-anchor="end" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">0</text><line x1="78" y1="320.7" x2="896" y2="320.7" stroke="#2c2c2a" stroke-width="1"/><text x="68" y="324.7" text-anchor="end" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">20</text><line x1="78" y1="255.0" x2="896" y2="255.0" stroke="#2c2c2a" stroke-width="1"/><text x="68" y="259.0" text-anchor="end" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">40</text><line x1="78" y1="189.3" x2="896" y2="189.3" stroke="#2c2c2a" stroke-width="1"/><text x="68" y="193.3" text-anchor="end" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">60</text><line x1="78" y1="123.7" x2="896" y2="123.7" stroke="#2c2c2a" stroke-width="1"/><text x="68" y="127.7" text-anchor="end" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">80</text><line x1="78" y1="58.0" x2="896" y2="58.0" stroke="#2c2c2a" stroke-width="1"/><text x="68" y="62.0" text-anchor="end" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">100</text><text x="78.0" y="474" text-anchor="middle" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">-110</text><text x="226.7" y="474" text-anchor="middle" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">-90</text><text x="375.5" y="474" text-anchor="middle" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">-70</text><text x="524.2" y="474" text-anchor="middle" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">-50</text><text x="672.9" y="474" text-anchor="middle" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">-30</text><text x="821.6" y="474" text-anchor="middle" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">-10</text><text x="896.0" y="474" text-anchor="middle" font-size="12" fill="#898781" font-variant-numeric="tabular-nums">0</text>
+  <line x1="78" y1="452" x2="896" y2="452" stroke="#383835" stroke-width="1"/>
+  <path d="M851.4,83.5 L747.3,128.7 L598.5,195.3 L449.8,263.4 L301.1,324.5 L226.7,355.3 L152.4,386.3" fill="none" stroke="#3987e5" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M851.4,99.7 L747.3,145.6 L598.5,211.3 L449.8,277.0 L301.1,342.7 L226.7,375.5 L152.4,408.3" fill="none" stroke="#d95926" stroke-width="2" stroke-linejoin="round"/>
+  <circle cx="152.4" cy="386.3" r="4.5" fill="#3987e5" stroke="#1a1a19" stroke-width="2"/>
+  <circle cx="152.4" cy="408.3" r="4.5" fill="#d95926" stroke="#1a1a19" stroke-width="2"/>
+  <g font-size="12.5" fill="#c3c2b7">
+    <line x1="96" y1="76" x2="124" y2="76" stroke="#3987e5" stroke-width="2"/>
+    <text x="132" y="80">No dither</text>
+    <line x1="96" y1="100" x2="124" y2="100" stroke="#d95926" stroke-width="2"/>
+    <text x="132" y="104">TPDF dither</text>
+  </g>
+  <text x="487.0" y="502" text-anchor="middle" font-size="12.5" fill="#c3c2b7">Tone level (dBFS)</text>
+  <text transform="translate(20,255.0) rotate(-90)" text-anchor="middle" font-size="12.5" fill="#c3c2b7">SNR vs input (dB)</text>
+</svg>

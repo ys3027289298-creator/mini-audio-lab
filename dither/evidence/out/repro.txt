@@ -1,0 +1,5 @@
+repro_same_seed_identical=1
+repro_matches_bundle=1
+dither_off_seed_independent=1
+dither_off_matches_bundle=1
+different_seed_changes_bytes=1
