@@ -1,0 +1,10 @@
+case,input,status,out_gain
+dist_zero,0.0,ATTEN_ERR_DIST_ZERO,0.000000
+dist_neg_zero,-0.0,ATTEN_ERR_DIST_ZERO,0.000000
+dist_negative,-1.0,ATTEN_ERR_DIST_NEG,0.000000
+dist_nan,nan,ATTEN_ERR_NONFINITE,0.000000
+dist_inf,inf,ATTEN_ERR_NONFINITE,0.000000
+dist_valid_far,4.0,ATTEN_OK,0.250000
+cfg_ref_zero,2.0,ATTEN_ERR_REF,0.000000
+cfg_rolloff_negative,2.0,ATTEN_ERR_ROLLOFF,0.000000
+cfg_knee_negative,2.0,ATTEN_ERR_KNEE,0.000000
