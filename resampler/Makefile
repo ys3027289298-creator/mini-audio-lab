@@ -9,5 +9,15 @@ resampler: src/resampler.c
 test: resampler
 	./resampler
 
+measure: aa_measure
+	@mkdir -p doc
+	./aa_measure | tee doc/measurements.md
+	python3 tools/plot_freq.py doc/freq_response.csv doc/freq_response.svg
+
+aa_measure: tools/measure.c src/resampler.c
+	$(CC) $(CFLAGS) tools/measure.c -o $@ -lm
+
 clean:
-	rm -f resampler
+	rm -f resampler aa_measure
+
+.PHONY: all test measure clean
