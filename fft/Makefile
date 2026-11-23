@@ -1,13 +1,19 @@
 CC ?= gcc
 CFLAGS ?= -O2 -std=c11 -Wall -Wextra
 
-all: fft
+BINS = fft spectral
 
-fft: src/fft.c
-	$(CC) $(CFLAGS) $< -o $@ -lm
+all: $(BINS)
 
-test: fft
+fft: src/fft.c src/fft_core.c src/fft_internal.h
+	$(CC) $(CFLAGS) src/fft.c src/fft_core.c -o $@ -lm
+
+spectral: src/spectral.c src/fft_core.c src/fft_internal.h
+	$(CC) $(CFLAGS) src/spectral.c src/fft_core.c -o $@ -lm
+
+test: $(BINS)
 	./fft
+	./spectral
 
 clean:
-	rm -f fft
+	rm -f $(BINS)

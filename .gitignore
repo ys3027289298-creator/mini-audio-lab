@@ -1,0 +1,10 @@
+# build outputs (each module builds a same-named binary)
+/fft/fft
+/fft/spectral
+/resampler/resampler
+/mixer/mixer
+/limiter/limiter
+/spatial/spatial
+*.o
+__pycache__/
+*.pyc
