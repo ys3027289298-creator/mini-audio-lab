@@ -1,0 +1,10 @@
+=== 48000 Hz ===
+error   law: E_dB(B) = 57.606 + (-18.008)*log10(B)   R2(dB)=0.9604
+          => linear-power form E = 5.763e+05 * B^(-1.801)
+latency law: L(B) = 2.083e-02 * B^(1.000)   R2=1.0000  (theory L = B/48000 = 0.0208 ms * B, slope exponent 1.0)
+latency linear: L = 0.02083*B + -0.0001 ms (expected 0.02083 ms/sample)
+=== 96000 Hz ===
+error   law: E_dB(B) = 72.139 + (-21.152)*log10(B)   R2(dB)=0.9934
+          => linear-power form E = 1.636e+07 * B^(-2.115)
+latency law: L(B) = 1.042e-02 * B^(1.000)   R2=1.0000  (theory L = B/96000 = 0.0104 ms * B, slope exponent 1.0)
+latency linear: L = 0.01042*B + 0.0001 ms (expected 0.01042 ms/sample)

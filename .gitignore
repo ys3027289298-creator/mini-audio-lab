@@ -1,0 +1,7 @@
+# compiled module binaries (each module builds an eponymous executable)
+/fft/fft
+/fft/bench/bench_blockfft
+/resampler/resampler
+/mixer/mixer
+/limiter/limiter
+/spatial/spatial
