@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include "sr.h"
 
 #define BLK 128
 
@@ -22,6 +23,11 @@ static void lim_init(Limiter* l, float attack_ms, float release_ms, float sr) {
     l->release_ms = release_ms;
     l->sample_rate = sr;
     l->env = 1.0f;
+}
+
+/* unified-assumption entry point: pipeline default rate from common/sr.h */
+static void lim_init_default(Limiter* l, float attack_ms, float release_ms) {
+    lim_init(l, attack_ms, release_ms, MAL_SR_DEFAULT);
 }
 
 /* one-pole coefficients from time constants */
@@ -71,19 +77,19 @@ int main(void) {
     Report rep;
 
     for (int i = 0; i < BLK; i++) in[i] = 0.5f;
-    lim_init(&l, 5.0f, 50.0f, 48000.0f);
+    lim_init_default(&l, 5.0f, 50.0f);
     check("quiet_passthrough", lim_process(&l, in, out, BLK, 0.9f, &rep) == BLK && rep.limited_samples == 0);
     check("quiet_peak", fabsf(rep.peak_out - 0.5f) < 1e-4f);
 
     for (int i = 0; i < BLK; i++) in[i] = 2.0f;
-    lim_init(&l, 5.0f, 50.0f, 48000.0f);
+    lim_init_default(&l, 5.0f, 50.0f);
     lim_process(&l, in, out, BLK, 0.8f, &rep);
     check("loud_limited", rep.limited_samples > 0);
     check("below_ceiling", rep.peak_out <= 0.8f + 1e-4f);
     check("reduction_positive", rep.max_reduction > 0.0f);
 
     check("bad_ceiling", lim_process(&l, in, out, BLK, 0.0f, &rep) == -1);
-    lim_init(&l, 0.0f, 50.0f, 48000.0f);
+    lim_init_default(&l, 0.0f, 50.0f);
     check("bad_attack", lim_process(&l, in, out, BLK, 0.8f, &rep) == -1);
 
     printf("all_ok=%d\n", failures == 0);

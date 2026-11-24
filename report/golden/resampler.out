@@ -1,0 +1,7 @@
+downsample_len=1
+upsample_len=1
+bad_ratio=1
+cap_too_small=1
+dc_preserved=1
+monotone_ramp=1
+all_ok=1

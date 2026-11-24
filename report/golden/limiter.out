@@ -1,0 +1,8 @@
+quiet_passthrough=1
+quiet_peak=1
+loud_limited=1
+below_ceiling=1
+reduction_positive=1
+bad_ceiling=1
+bad_attack=1
+all_ok=1

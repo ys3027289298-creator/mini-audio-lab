@@ -1,0 +1,9 @@
+center=1
+center_power=1
+hard_left=1
+hard_right=1
+pan_bad=1
+near_full=1
+farther_quieter=1
+bad_dist=1
+all_ok=1

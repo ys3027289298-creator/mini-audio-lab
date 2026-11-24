@@ -1,0 +1,58 @@
+== 1. length table: ms -> frames (mal_ms_to_frames) ==
+        ms   frames@48000   frames@44100   diff
+         1             48             44      4
+         2             96             88      8
+         5            240            221     19
+        10            480            441     39
+        20            960            882     78
+        50           2400           2205    195
+       100           4800           4410    390
+       250          12000          11025    975
+      1000          48000          44100   3900
+== 1b. length table: resample output length (resample_rates) ==
+      n_in  out 48000>44100  out 44100>48000
+       128              117              139
+       256              235              278
+      1024              940             1114
+      4410             4051             4800
+      4800             4410             5224
+     11025            10129            12000
+     12000            11024            13061
+== 2. waveform summary per stage (1 kHz tone, 0.25 s, amp 0.9) ==
+  resampler sr=48000 n=12000 peak=0.900000 rms=0.636396 mean=-0.000000 hash=20be7ed0cf88d04d
+  mixer     sr=48000 n=12000 peak=1.000000 rms=0.645574 mean=+0.226494 hash=afbcad2f521b522c
+  mixer     sr=48000 clipped=2166 st.peak=1.000000
+  limiter   sr=48000 n=12000 peak=0.800000 rms=0.628048 mean=+0.000116 hash=dea8fd4beebb2112
+  limiter   sr=48000 limited=11996 max_reduction=0.476099 peak_out=0.800000
+  resampler sr=44100 n=11025 peak=0.899995 rms=0.636396 mean=-0.000000 hash=7820e2f725e84d1d
+  mixer     sr=44100 n=11025 peak=1.000000 rms=0.645741 mean=+0.226602 hash=3f7bcdb7a5be955f
+  mixer     sr=44100 clipped=1973 st.peak=1.000000
+  limiter   sr=44100 n=11025 peak=0.800000 rms=0.628359 mean=+0.000114 hash=c1678df981179645
+  limiter   sr=44100 limited=11021 max_reduction=0.475789 peak_out=0.800000
+== 2b. waveform summary: resample 48000 -> 44100 -> 48000 round trip ==
+  rs_48to44 sr=44100 n=11024 peak=0.899791 rms=0.635516 mean=+0.000012 hash=4fb652429ad5cf1a
+  rs_44to48 sr=48000 n=11998 peak=0.899569 rms=0.634468 mean=+0.000029 hash=b98eee0fcef5f599
+== 3. timing per stage at both rates (0.25 s buffers, 2000 iterations) ==
+  stage         sr   frames   total_ms ns_per_sample
+  resampler  48000    12000       55.4          2.3
+  mixer      48000    12000       33.2          1.4
+  limiter    48000    12000      118.3          4.9
+  resampler  44100    11025       54.1          2.5
+  mixer      44100    11025       30.9          1.4
+  limiter    44100    11025      112.2          5.1
+== 4. old-interface compatibility list ==
+  module     old api (unchanged)                assumption before
+  resampler  resample_linear(in,n,ratio,out,cap) bare ratio, no absolute rate
+  mixer      mix_ramp(...,ramp_frames,st)       ramp in frames
+  limiter    lim_init(...,sr)+lim_process       ms + caller-supplied sr
+  resample_linear ratio=2.0    OK
+  resample_linear ratio=0.5    OK
+  resample_linear bad ratio    OK
+  mix_ramp frames=0            OK
+  mix_ramp frames=128          OK
+  mix_ramp bad ramp            OK
+  lim_init+lim_process @48000  OK
+  lim_process bad ceiling      OK
+  note: default self-test output of every module is byte-identical to
+  pre-unification HEAD; verify with 'make -C report check-compat'.
+all_ok=1

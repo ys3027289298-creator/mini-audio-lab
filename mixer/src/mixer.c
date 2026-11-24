@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include "sr.h"
 
 #define N 128
 
@@ -27,6 +28,14 @@ static int mix_ramp(const float* a, const float* b, float gain_a, float gain_b,
     return n;
 }
 
+/* unified-assumption wrapper: ramp given in ms, converted via common/sr.h */
+static int mix_ramp_ms(const float* a, const float* b, float gain_a, float gain_b,
+                       float* out, int n, float ramp_ms, float sr, MixStat* st) {
+    int ramp_frames = ramp_ms <= 0.0f ? 0 : mal_ms_to_frames(ramp_ms, sr);
+    if (ramp_frames < 0) return -1;
+    return mix_ramp(a, b, gain_a, gain_b, out, n, ramp_frames, st);
+}
+
 static int failures = 0;
 static void check(const char* name, int ok) {
     printf("%s=%d\n", name, ok ? 1 : 0);
@@ -34,6 +43,7 @@ static void check(const char* name, int ok) {
 }
 
 int main(void) {
+    (void)mix_ramp_ms; /* unified-assumption entry, exercised by report/sr_report */
     float a[N], b[N], out[N];
     for (int i = 0; i < N; i++) { a[i] = 0.5f; b[i] = 0.25f; }
 

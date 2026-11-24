@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include "sr.h"
 
 #define N 256
 
@@ -20,6 +21,14 @@ static int resample_linear(const float* in, int n_in, double ratio, float* out, 
     return n_out;
 }
 
+/* unified-assumption wrapper: rates in Hz, ratio derived via common/sr.h */
+static int resample_rates(const float* in, int n_in, float sr_in, float sr_out,
+                          float* out, int cap) {
+    double ratio = mal_ratio(sr_in, sr_out);
+    if (ratio <= 0.0) return -1;
+    return resample_linear(in, n_in, ratio, out, cap);
+}
+
 static float peak(const float* v, int n) {
     float p = 0.0f;
     for (int i = 0; i < n; i++) { float a = fabsf(v[i]); if (a > p) p = a; }
@@ -33,6 +42,7 @@ static void check(const char* name, int ok) {
 }
 
 int main(void) {
+    (void)resample_rates; /* unified-assumption entry, exercised by report/sr_report */
     float in[N], out[N * 4];
     for (int i = 0; i < N; i++) in[i] = (float)(i % 7) / 7.0f;
     int n = resample_linear(in, N, 2.0, out, N * 4);
