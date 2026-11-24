@@ -1,47 +1,19 @@
 
-/* fft: iterative radix-2 complex FFT with magnitude and Parseval check. */
+/* fft: self-test for fft.h — magnitude and Parseval check. */
 #include <stdio.h>
 #include <math.h>
 #include <string.h>
+#include "fft.h"
 
 #define NFFT 64
 
-typedef struct { float re, im; } C;
-
-static void fft(C* a, int n, int inverse) {
-    for (int i = 1, j = 0; i < n; i++) {
-        int bit = n >> 1;
-        for (; j & bit; bit >>= 1) j ^= bit;
-        j ^= bit;
-        if (i < j) { C t = a[i]; a[i] = a[j]; a[j] = t; }
-    }
-    for (int len = 2; len <= n; len <<= 1) {
-        double ang = 2.0 * 3.14159265358979 / len * (inverse ? 1.0 : -1.0);
-        C wl = { (float)cos(ang), (float)sin(ang) };
-        for (int i = 0; i < n; i += len) {
-            C w = { 1.0f, 0.0f };
-            for (int k = 0; k < len / 2; k++) {
-                C u = a[i + k];
-                C v = { a[i + k + len / 2].re * w.re - a[i + k + len / 2].im * w.im,
-                        a[i + k + len / 2].re * w.im + a[i + k + len / 2].im * w.re };
-                a[i + k].re = u.re + v.re; a[i + k].im = u.im + v.im;
-                a[i + k + len / 2].re = u.re - v.re; a[i + k + len / 2].im = u.im - v.im;
-                float nr = w.re * wl.re - w.im * wl.im;
-                float ni = w.re * wl.im + w.im * wl.re;
-                w.re = nr; w.im = ni;
-            }
-        }
-    }
-    if (inverse) { for (int i = 0; i < n; i++) { a[i].re /= n; a[i].im /= n; } }
-}
-
-static float energy_time(const C* a, int n) {
+static float energy_time(const FftC* a, int n) {
     float s = 0.0f;
     for (int i = 0; i < n; i++) s += a[i].re * a[i].re + a[i].im * a[i].im;
     return s;
 }
 
-static float energy_freq(const C* a, int n) {
+static float energy_freq(const FftC* a, int n) {
     float s = 0.0f;
     for (int i = 0; i < n; i++) s += a[i].re * a[i].re + a[i].im * a[i].im;
     return s / (float)n;
@@ -54,7 +26,7 @@ static void check(const char* name, int ok) {
 }
 
 int main(void) {
-    C a[NFFT];
+    FftC a[NFFT];
     memset(a, 0, sizeof(a));
 
     /* DC signal */
@@ -77,9 +49,9 @@ int main(void) {
     check("tone_amplitude", fabsf(mag4 / (NFFT / 2) - 1.0f) < 1e-2f);
 
     /* round trip */
-    C b[NFFT];
+    FftC b[NFFT];
     for (int i = 0; i < NFFT; i++) { b[i].re = (float)(i % 5); b[i].im = 0.0f; }
-    C orig[NFFT];
+    FftC orig[NFFT];
     memcpy(orig, b, sizeof(orig));
     fft(b, NFFT, 0);
     fft(b, NFFT, 1);
