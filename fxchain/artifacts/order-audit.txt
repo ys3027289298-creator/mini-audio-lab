@@ -1,0 +1,233 @@
+fxchain: five-block order audit (120 permutations)
+canonical order: R D C X F  (reverb -> delay -> chorus -> distortion -> filter)
+
+== 1. gain calibration (reference: noise, fixed 1 s window) ==
+block            in_rms    out_rms       gain   out_peak     out_dc
+reverb          0.09583    0.12496    0.76686    0.57556   2.58e-06
+delay           0.09583    0.09911    0.96686    0.25124  -6.27e-10
+chorus          0.09583    0.07610    1.25919    0.25601   1.65e-04
+distortion      0.09583    0.27204    0.35224    0.49298   2.63e-04
+filter          0.09583    0.09140    1.04838    0.29335   8.69e-11
+
+== 2. residual level error after gain staging (dB re input rms) ==
+block           sweep    noise    tonal  sine400       dc  impulse
+reverb           1.16    -0.02    -2.38     1.45   -13.06     0.00
+delay            0.41    -0.00     0.86     0.83   -23.54     0.00
+chorus           2.31    -0.01     4.37     3.65     5.52     0.00
+distortion      -1.46     0.00     0.14    -1.02    -0.96     0.00
+filter          -3.39    -0.01   -22.22   -27.64   -45.11     0.00
+
+== 3. block classification (defect dB; lower = more linear) ==
+block           homogeneity     additivity
+reverb               -200.0         -135.7
+delay                -200.0         -143.4
+chorus               -200.0         -143.7
+distortion            -26.9          -21.0
+filter               -905.5         -133.0
+
+== 4. audio-kernel vs block-by-block equivalence (canonical) ==
+relative rms difference = -200.0 dB
+(a large value here would mean the two-fidelity path differs; expect < -60)
+
+== 5. permutation audit (distance to canonical, gain-staged) ==
+idx  perm      sweep_dB    noise_dB    tonal_dB     mean_dB flag
+0    RDCXF       -200.0      -200.0      -200.0      -200.0 order-free
+1    RDCFX        -18.0       -25.6       -18.7       -19.7 BROKEN
+2    RDXCF        -14.0       -25.1       -19.7       -17.5 BROKEN
+3    RDXFC        -14.0       -25.1       -19.7       -17.5 BROKEN
+4    RDFCX        -18.0       -25.6       -18.7       -19.7 BROKEN
+5    RDFXC        -12.5       -24.0       -18.7       -16.1 BROKEN
+6    RCDXF        -12.3        -9.9       -19.5       -12.4 BROKEN
+7    RCDFX        -11.6        -9.8       -16.2       -11.8 BROKEN
+8    RCXDF        -11.7        -9.8       -17.1       -12.0 BROKEN
+9    RCXFD        -11.7        -9.8       -17.1       -12.0 BROKEN
+10   RCFDX        -11.6        -9.8       -16.2       -11.8 BROKEN
+11   RCFXD        -10.9        -9.8       -16.2       -11.5 BROKEN
+12   RXDCF        -12.6       -24.8       -18.7       -16.2 BROKEN
+13   RXDFC        -12.6       -24.8       -18.7       -16.2 BROKEN
+14   RXCDF        -10.3        -9.8       -16.2       -11.3 BROKEN
+15   RXCFD        -10.3        -9.8       -16.2       -11.3 BROKEN
+16   RXFDC        -12.6       -24.8       -18.7       -16.2 BROKEN
+17   RXFCD        -10.3        -9.8       -16.2       -11.3 BROKEN
+18   RFDCX        -18.0       -25.6       -18.7       -19.7 BROKEN
+19   RFDXC        -12.5       -24.0       -18.7       -16.1 BROKEN
+20   RFCDX        -11.6        -9.8       -16.2       -11.8 BROKEN
+21   RFCXD        -10.9        -9.8       -16.2       -11.5 BROKEN
+22   RFXDC        -11.4       -23.9       -18.7       -15.2 BROKEN
+23   RFXCD         -9.8        -9.7       -16.2       -11.1 BROKEN
+24   DRCXF       -133.7      -135.8      -115.0      -119.7 order-free
+25   DRCFX        -18.0       -25.6       -18.7       -19.7 BROKEN
+26   DRXCF        -14.0       -25.1       -19.7       -17.5 BROKEN
+27   DRXFC        -14.0       -25.1       -19.7       -17.5 BROKEN
+28   DRFCX        -18.0       -25.6       -18.7       -19.7 BROKEN
+29   DRFXC        -12.5       -24.0       -18.7       -16.1 BROKEN
+30   DCRXF         -8.3        -7.0       -12.9        -8.7 BROKEN
+31   DCRFX         -8.1        -6.9       -12.0        -8.5 BROKEN
+32   DCXRF         -7.5        -6.9       -10.6        -8.1 BROKEN
+33   DCXFR         -7.5        -6.9       -10.6        -8.1 BROKEN
+34   DCFRX         -8.1        -6.9       -12.0        -8.5 BROKEN
+35   DCFXR         -7.4        -6.9       -12.0        -8.3 BROKEN
+36   DXRCF        -11.3       -24.8       -15.7       -14.6 BROKEN
+37   DXRFC        -11.3       -24.8       -15.7       -14.6 BROKEN
+38   DXCRF         -7.1        -6.9       -10.9        -8.0 BROKEN
+39   DXCFR         -7.1        -6.9       -10.9        -8.0 BROKEN
+40   DXFRC        -11.3       -24.8       -15.7       -14.6 BROKEN
+41   DXFCR         -7.1        -6.9       -10.9        -8.0 BROKEN
+42   DFRCX        -18.0       -25.6       -18.7       -19.7 BROKEN
+43   DFRXC        -12.5       -24.0       -18.7       -16.1 BROKEN
+44   DFCRX         -8.1        -6.9       -12.0        -8.5 BROKEN
+45   DFCXR         -7.5        -6.9       -12.0        -8.3 BROKEN
+46   DFXRC        -10.7       -24.1       -18.6       -14.6 BROKEN
+47   DFXCR         -7.1        -6.9       -12.0        -8.1 BROKEN
+48   CRDXF         -6.9        -6.2       -11.4        -7.7 BROKEN
+49   CRDFX         -6.8        -6.2       -10.8        -7.5 BROKEN
+50   CRXDF         -6.9        -6.2       -11.0        -7.6 BROKEN
+51   CRXFD         -6.9        -6.2       -11.0        -7.6 BROKEN
+52   CRFDX         -6.8        -6.2       -10.8        -7.5 BROKEN
+53   CRFXD         -6.7        -6.2       -10.8        -7.5 BROKEN
+54   CDRXF         -6.9        -6.2       -11.4        -7.7 BROKEN
+55   CDRFX         -6.8        -6.2       -10.8        -7.5 BROKEN
+56   CDXRF         -6.5        -6.2        -9.7        -7.2 BROKEN
+57   CDXFR         -6.5        -6.2        -9.7        -7.2 BROKEN
+58   CDFRX         -6.8        -6.2       -10.8        -7.5 BROKEN
+59   CDFXR         -6.4        -6.2       -10.8        -7.4 BROKEN
+60   CXRDF         -6.7        -6.2       -10.1        -7.3 BROKEN
+61   CXRFD         -6.7        -6.2       -10.1        -7.3 BROKEN
+62   CXDRF         -6.7        -6.2       -10.1        -7.3 BROKEN
+63   CXDFR         -6.7        -6.2       -10.1        -7.3 BROKEN
+64   CXFRD         -6.7        -6.2       -10.1        -7.3 BROKEN
+65   CXFDR         -6.7        -6.2       -10.1        -7.3 BROKEN
+66   CFRDX         -6.8        -6.2       -10.8        -7.5 BROKEN
+67   CFRXD         -6.7        -6.2       -10.8        -7.5 BROKEN
+68   CFDRX         -6.8        -6.2       -10.8        -7.5 BROKEN
+69   CFDXR         -6.4        -6.2       -10.8        -7.4 BROKEN
+70   CFXRD         -6.6        -6.2       -10.8        -7.4 BROKEN
+71   CFXDR         -6.6        -6.2       -10.8        -7.4 BROKEN
+72   XRDCF        -11.0       -25.0       -16.4       -14.5 BROKEN
+73   XRDFC        -11.0       -25.0       -16.4       -14.5 BROKEN
+74   XRCDF         -9.3        -9.8       -14.6       -10.7 BROKEN
+75   XRCFD         -9.3        -9.8       -14.6       -10.7 BROKEN
+76   XRFDC        -11.0       -25.0       -16.4       -14.5 BROKEN
+77   XRFCD         -9.3        -9.8       -14.6       -10.7 BROKEN
+78   XDRCF        -11.0       -25.0       -16.4       -14.5 BROKEN
+79   XDRFC        -11.0       -25.0       -16.4       -14.5 BROKEN
+80   XDCRF         -7.2        -6.9       -11.1        -8.0 BROKEN
+81   XDCFR         -7.2        -6.9       -11.1        -8.0 BROKEN
+82   XDFRC        -11.0       -25.0       -16.4       -14.5 BROKEN
+83   XDFCR         -7.2        -6.9       -11.1        -8.0 BROKEN
+84   XCRDF         -5.9        -6.2       -10.1        -7.0 BROKEN
+85   XCRFD         -5.9        -6.2       -10.1        -7.0 BROKEN
+86   XCDRF         -5.9        -6.2       -10.1        -7.0 BROKEN
+87   XCDFR         -5.9        -6.2       -10.1        -7.0 BROKEN
+88   XCFRD         -5.9        -6.2       -10.1        -7.0 BROKEN
+89   XCFDR         -5.9        -6.2       -10.1        -7.0 BROKEN
+90   XFRDC        -11.0       -25.0       -16.4       -14.5 BROKEN
+91   XFRCD         -9.3        -9.8       -14.6       -10.7 BROKEN
+92   XFDRC        -11.0       -25.0       -16.4       -14.5 BROKEN
+93   XFDCR         -7.2        -6.9       -11.1        -8.0 BROKEN
+94   XFCRD         -5.9        -6.2       -10.1        -7.0 BROKEN
+95   XFCDR         -5.9        -6.2       -10.1        -7.0 BROKEN
+96   FRDCX        -18.0       -25.6       -18.7       -19.7 BROKEN
+97   FRDXC        -12.5       -24.0       -18.7       -16.1 BROKEN
+98   FRCDX        -11.6        -9.8       -16.2       -11.8 BROKEN
+99   FRCXD        -10.9        -9.8       -16.2       -11.5 BROKEN
+100  FRXDC        -11.4       -23.9       -18.7       -15.2 BROKEN
+101  FRXCD         -9.8        -9.7       -16.2       -11.1 BROKEN
+102  FDRCX        -18.0       -25.6       -18.7       -19.7 BROKEN
+103  FDRXC        -12.5       -24.0       -18.7       -16.1 BROKEN
+104  FDCRX         -8.1        -6.9       -12.0        -8.5 BROKEN
+105  FDCXR         -7.5        -6.9       -12.0        -8.3 BROKEN
+106  FDXRC        -10.7       -24.1       -18.6       -14.6 BROKEN
+107  FDXCR         -7.1        -6.9       -12.0        -8.1 BROKEN
+108  FCRDX         -6.8        -6.2       -10.8        -7.5 BROKEN
+109  FCRXD         -6.7        -6.2       -10.8        -7.5 BROKEN
+110  FCDRX         -6.8        -6.2       -10.8        -7.5 BROKEN
+111  FCDXR         -6.4        -6.2       -10.8        -7.4 BROKEN
+112  FCXRD         -6.6        -6.2       -10.8        -7.4 BROKEN
+113  FCXDR         -6.6        -6.2       -10.8        -7.4 BROKEN
+114  FXRDC        -10.3       -24.1       -18.6       -14.3 BROKEN
+115  FXRCD         -9.0        -9.7       -16.1       -10.7 BROKEN
+116  FXDRC        -10.3       -24.1       -18.6       -14.3 BROKEN
+117  FXDCR         -7.1        -6.9       -12.0        -8.1 BROKEN
+118  FXCRD         -5.9        -6.1       -10.8        -7.1 BROKEN
+119  FXCDR         -5.9        -6.1       -10.8        -7.1 BROKEN
+
+order-invariance failure counts (3-signal mean):
+  > -100.0 dB : 118 / 120
+  >  -80.0 dB : 118 / 120
+  >  -60.0 dB : 118 / 120
+  >  -40.0 dB : 118 / 120
+  dispersion: min -200.0  p25 -14.5  median -8.7  p75 -7.5  max -7.0 dB
+
+== 6. isolated pairwise commutator K_AB (dB, gain-staged) ==
+              R          D          C          X          F
+R             .    -138.4     -11.4     -18.8    -120.5
+D        -138.4         .     -14.0     -24.4    -120.4
+C         -11.4     -14.0         .     -19.9     -62.5
+X         -18.8     -24.4     -19.9         .     -24.0
+F        -120.5    -120.4     -62.5     -24.0         .
+(K_AB = output change when A and B are swapped with nothing else present)
+
+== 7. context-averaged pair commutator (swap inside the full chain) ==
+pair       swap_effect_dB      isolated_K_dB
+R-D                 -15.2             -138.4
+R-C                  -8.3              -11.4
+R-X                 -12.1              -18.8
+R-F                 -13.0             -120.5
+D-C                 -10.2              -14.0
+D-X                 -15.3              -24.4
+D-F                 -16.7             -120.4
+C-X                 -11.3              -19.9
+C-F                 -11.9              -62.5
+X-F                 -18.5              -24.0
+
+== 8. permutations at or below -60 dB (order-free within tolerance) ==
+  RDCXF     -200.0 dB
+  DRCXF     -119.7 dB
+  (2 of 120)
+
+== conventional order X F C D R ==
+  XFCDR   distance to canonical: -7.0 dB
+
+== 9. permutation dispersion under ablated chain variants ==
+   (3-signal mean distance to canonical; all 120 orders; gain-staged)
+chain variant                         median_dB       max_dB       n_free
+as built (X nonlinear, C time-varying)         -8.7         -7.0            2
+X linearized (C still time-varying)         -8.7         -7.4           40
+X nonlinear (C frozen to fixed taps)        -15.3        -14.6            6
+X linearized + C frozen (control)        -117.6       -115.4          120
+
+== 10. isolated pair commutator, X linearized (dB) ==
+              R          D          C          X          F
+R             .    -138.4     -11.4    -138.2    -120.5
+D        -138.4         .     -14.0    -144.5    -120.4
+C         -11.4     -14.0         .    -144.6     -62.5
+X        -138.2    -144.5    -144.6         .    -120.7
+F        -120.5    -120.4     -62.5    -120.7         .
+(compare with section 6: every pair involving X collapses)
+
+== 11. how much of each pair's coupling is caused by X's nonlinearity ==
+pair          full_dB    X_linear_dB   work_by_X_dB  share
+R-D            -138.4         -138.4            0.0  structural (no X needed)
+R-C             -11.4          -11.4            0.0  structural (no X needed)
+R-X             -18.8         -138.2          119.5  nonlinear, via X
+R-F            -120.5         -120.5            0.0  structural (no X needed)
+D-C             -14.0          -14.0            0.0  structural (no X needed)
+D-X             -24.4         -144.5          120.1  nonlinear, via X
+D-F            -120.4         -120.4            0.0  structural (no X needed)
+C-X             -19.9         -144.6          124.6  nonlinear, via X
+C-F             -62.5          -62.5            0.0  structural (no X needed)
+X-F             -24.0         -120.7           96.7  nonlinear, via X
+
+== 12. summary: which blocks break order invariance, and why ==
+  X distortion: memoryless tanh.  Homogeneity error -26.9 dB, additivity -21.0 dB.
+                It emits overtones that the next block then filters; no gain
+                setting removes this.  It breaks order against every neighbor:
+                R-X -18.8, D-X -24.4, C-X -19.9, X-F -24.0 dB (sections 6, 11).
+  C chorus:     linear but time-varying (both linearity checks at the -200 dB
+                floor), yet it fails to commute with every LTI block:
+                R-C -11.4, D-C -14.0, C-F -62.5 dB.  This coupling is structural,
+                not nonlinear: linearizing X does not touch it (section 11).
+  R, D, F:      LTI.  Pairwise commutative at -120 dB or lower (sections 6, 7).
+  Gain staging matched R/D/F levels, but it cannot linearize X or make C
+  time-invariant, so it cannot produce a chain in which all 120 orders agree.
