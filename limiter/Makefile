@@ -9,5 +9,12 @@ limiter: src/limiter.c
 test: limiter
 	./limiter
 
+compare: src/compare.c tools/plot_compare.py
+	$(CC) $(CFLAGS) src/compare.c -o compare -lm
+	mkdir -p out
+	./compare
+	python3 tools/plot_compare.py
+
 clean:
-	rm -f limiter
+	rm -f limiter compare
+	rm -rf out
