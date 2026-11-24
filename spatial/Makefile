@@ -1,5 +1,5 @@
 CC ?= gcc
-CFLAGS ?= -O2 -std=c11 -Wall -Wextra
+CFLAGS ?= -O2 -std=c11 -Wall -Wextra -I../stream
 
 all: spatial
 
